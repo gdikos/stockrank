@@ -1,0 +1,96 @@
+counter is 1
+FTSE.AT
+2
+2
+counter is 2
+FTSE.AT
+6971
+6971
+counter is 3
+FTSE.AT
+1338
+1338
+counter is 4
+FTSE.AT
+5
+5
+counter is 5
+FTSE.AT
+5
+5
+counter is 6
+FTSE.AT
+4118
+4118
+counter is 7
+FTSE.AT
+4118
+4118
+counter is 8
+FTSE.AT
+21
+21
+counter is 9
+FTSE.AT
+2
+2
+counter is 10
+FTSE.AT
+6971
+6971
+counter is 11
+FTSE.AT
+1338
+1338
+counter is 12
+FTSE.AT
+145
+145
+counter is 13
+FTSE.AT
+9
+9
+counter is 14
+FTSE.AT
+6483
+6483
+counter is 15
+FTSE.AT
+1020
+1020
+counter is 16
+FTSE.AT
+33
+33
+counter is 17
+FTSE.AT
+33
+33
+counter is 18
+FTSE.AT
+3668
+3668
+counter is 19
+FTSE.AT
+3668
+3668
+counter is 20
+FTSE.AT
+145
+145
+counter is 21
+FTSE.AT
+9
+9
+counter is 22
+FTSE.AT
+6483
+6483
+counter is 23
+FTSE.AT
+1020
+1020
+counter is 24
+FTSE.AT
+6483
+6483

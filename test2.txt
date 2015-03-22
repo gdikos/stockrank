@@ -1,0 +1,75 @@
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.10
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is -0.05
+lookback period is 2
+holding period is 5
+trigger is 0.05

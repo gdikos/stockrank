@@ -41,13 +41,13 @@ def get_data(ls_symbols, dt_start, dt_end):
         d_data[s_key] = d_data[s_key].fillna(method='bfill')
         d_data[s_key] = d_data[s_key].fillna(1.0)
     
-    #print ls_symbols
-    #print ls_keys
+    print ls_symbols
+    print ls_keys
     for s_key in ls_symbols:
         val = c_dataobj.getPathOfFile(s_key)
-        #print val
+        print val
         val = c_dataobj.getPathOfCSVFile('ALPHA.AT')
-        #print val
+        print val
     
     # Save into a csv files the "close values"    
     d_data['close'].to_csv("data.csv")
@@ -80,7 +80,6 @@ def run_simulation(ls_symbols, ldt_timestamps, na_prices, step=10):
         if abs(1.0 -sum(allocations)) <= error:
             f_vol, f_daily_ret, f_sharpe, f_cum_ret = run_trial(na_cum_rets, list(allocations))
             histo_sharpe.append(f_sharpe) 
-            print allocations, f_sharpe  
             if best_sharpe < f_sharpe:
                 best_sharpe = f_sharpe
                 res_allocations = allocations
@@ -88,9 +87,9 @@ def run_simulation(ls_symbols, ldt_timestamps, na_prices, step=10):
                 res_daily_ret = f_daily_ret
                 res_cum_ret = f_cum_ret
 
-    #print "Optimal solution:"
-    #print "Symbols:", ls_symbols
-    #print "Allocations:", list(res_allocations)
+    print "Optimal solution:"
+    print "Symbols:", ls_symbols
+    print "Allocations:", list(res_allocations)
     print "Sharpe Ratio:", best_sharpe
     print "Volatility (stdev of daily returns):", res_vol
     print "Average Daily Return:", res_daily_ret
@@ -98,17 +97,17 @@ def run_simulation(ls_symbols, ldt_timestamps, na_prices, step=10):
     print "Optimal solution:"
     print "Symbols:", ls_symbols
     print "Allocations:", list(res_allocations)
-    #print "Sharpe Ratio:", best_sharpe
-    #print "Volatility (stdev of daily returns):", res_vol
-    #print "Average Daily Return:", res_daily_ret
-    #print "Cumulative Return:", res_cum_ret
+    print "Sharpe Ratio:", best_sharpe
+    print "Volatility (stdev of daily returns):", res_vol
+    print "Average Daily Return:", res_daily_ret
+    print "Cumulative Return:", res_cum_ret
     pylab.hist(histo_sharpe, bins=100, normed=True)
     pylab.xlabel('Sharpe')
     pylab.ylabel('frequency')
     pylab.title('Sharpe-ratio hist.')
     pylab.grid()
     pylab.savefig('sharpe_histo.png')
-    #pylab.show()
+    pylab.show()
     
 def run_trial(na_cum_rets, allocations):
     """
@@ -152,17 +151,13 @@ def run_trial(na_cum_rets, allocations):
 
 def main():
     # List of symbols
-    #ls_symbols = ['DWNI.DE','LHA.DE','DPW.DE','BX4.PA']
-    #print ls_symbols
-    #ls_symbols = ['AMZN', 'EBAY', 'GS', 'C'] 
-    ls_symbols = ['BELA.AT','HTO.AT','OPAP.AT','TITK.AT','MIG.AT','ELPE.AT','EXAE.AT','PPA.AT','ALPHA.AT','ETE.AT','TPEIR.AT','MYTIL.AT','OPAP.AT']
+    ls_symbols = ['AMZN', 'EBAY', 'GS', 'C'] 
+   # ls_symbols = ['BELA.AT','HTO.AT','OPAP.AT','TITK.AT','MIG.AT','ELPE.AT','EXAE.AT','PPA.AT','ALPHA.AT','ETE.AT','TPEIR.AT','MYTIL.AT','OPAP.AT']
     # ls_symbols = ["table"]
-    #ls_symbols = ['OPAP.AT','MYTIL.AT','AEGN.AT','ALPHA.AT']
     # Start and End date of the charts
     #ls_symbols = ['ERO','GLD','VXX','USO','^IXIC']
-    print ls_symbols
     dt_start = dt.datetime(2010, 9, 1)
-    dt_end =dt.datetime(2014,12,31)
+    dt_end =dt.datetime(2014,11,19)
 
     ldt_timestamps, na_prices = get_data(ls_symbols, dt_start, dt_end)
     run_simulation(ls_symbols, ldt_timestamps, na_prices)
