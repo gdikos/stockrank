@@ -73,7 +73,7 @@ if __name__ == '__main__':
     switch = sys.argv[5]
     switch2=sys.argv[6]
     s_file_path = "q4_values.csv"
-    ls_symbols =["FTSE.AT"] 
+    ls_symbols =["IXIC"] 
     df_values_list = get_values_list(s_file_path)
     df_values = get_values(df_values_list)
     df_prices = get_prices(list(df_values.index), ls_symbols)
@@ -93,9 +93,9 @@ if __name__ == '__main__':
     # print
     df_result=get_performance_indicators(df_data)
     # print df_result
-    score= df_result.ix["sharpe_ratio","val"]-df_result.ix["sharpe_ratio","FTSE.AT"]
+    score= df_result.ix["sharpe_ratio","val"]-df_result.ix["sharpe_ratio","IXIC"]
 #  
-    delta= df_result.ix["total_ret","val"]-df_result.ix["total_ret","FTSE.AT"]
+    delta= df_result.ix["total_ret","val"]-df_result.ix["total_ret","IXIC"]
 
 #   if (score >0):
 #        print "we have a winner:"

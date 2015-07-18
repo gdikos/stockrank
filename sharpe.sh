@@ -1,7 +1,7 @@
 #!/bin/bash
 
 COUNTER=0
-for style in 1
+for style in 0 1 2
 do
     for i in 2 10
     do
