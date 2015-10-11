@@ -9,6 +9,7 @@ import scipy.stats.stats
 # QSTK Imports
 import QSTK.qstkutil.DataAccess as da
 import QSTK.qstkutil.qsdateutil as du
+import QSTK.qstkutil.tsutil as tsu
 
 def get_symbols(s_list_index):
     dataobj = da.DataAccess("Yahoo")
@@ -27,16 +28,17 @@ def get_data(dt_start, dt_end, ls_symbols):
         d_data[s_key] = d_data[s_key].fillna(1.0)
     return d_data
 def get_sharpe(df_prices,i_lookback):
+
     df_sharpe = np.NAN * copy.deepcopy(df_prices)
     for s_symbol in df_prices.columns:
         ts_price = df_prices[s_symbol]
+        tsu.returnize0(ts_price)
         ts_mid = pd.rolling_mean(ts_price, i_lookback)
         ts_std = pd.rolling_std(ts_price, i_lookback)
         df_sharpe[s_symbol] = (ts_mid*math.sqrt(i_lookback))/ts_std 
     ldt_timestamps = df_sharpe.index
     for i in range(1, len(ldt_timestamps)):
 	df_sharpe.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_sharpe.ix[ldt_timestamps[i]]) 
-
     return df_sharpe 
 
 def save_sharpe(df_sharpe, s_out_file_path):
@@ -167,13 +169,14 @@ if __name__ == '__main__':
     switch2=sys.argv[6]
     style=sys.argv[7]
     s_num = "100"
-    s_start = "2004-09-01"
+    s_start = "2012-09-01"
     s_end = "2015-09-01" 
 
     s_sharpe_file_path = "q4_sharpe" + ".csv"
     s_momentum_file_path = "q4_momentum" + ".csv"
     s_bollingers_file_path = "data\\q1_bollinger" + ".csv"
     s_events_file_path = "data\\q1_bollinger_events" + ".csv"
+    s_momentum_path = "q4_momentum" + ".csv" 
     s_events_img_path = "data\\q1_bollinger_events" + ".pdf"
     s_orders_file_path = "q4_orders" + ".csv"
     trigger=float(trigger) 
@@ -206,7 +209,7 @@ if __name__ == '__main__':
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
     #sharpe = get_sharpe(d_data["actual_close"],i_lookback)
     #print sharpe["ALPHA.AT"]
-        save_momentum(df_momentum_events, s_sharpe_file_path)
+        save_momentum(df_momentum_events, s_momentum_file_path)
 	df_orders = generate_orders(df_momentum_events, i_num, delta_t)
     	save_orders(df_orders, s_orders_file_path)
     	print count, "momentum"

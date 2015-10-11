@@ -22,15 +22,15 @@ do
     echo "holding period is" $holding_period 
     echo "trigger is" $trigger
     echo "market band is" $market
-if [ "$COUNTER" -gt "423" ]
-then echo "counter is" $COUNTER >> sharpe_b.txt 
-    sudo python sharperank.py $i $holding_period $trigger $market $bin $switch $style>> sharpe_b.txt 
+if [ "$COUNTER" -gt "0" ]
+then echo "counter is" $COUNTER >> sharpe_b2.txt 
+    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style>> sharpe_b2.txt 
 #   sudo python bollinger_events.py $i $holding_period $trigger $market $bin $switch >> score.txt
 
-    sudo python sharpe_sim.py
+    sudo python ls_sim.py
 #   sudo python analyzer.py $i $holding_period $trigger $market $bin $switch
-    echo "counter is" $COUNTER >> sharpe_r.txt
-    sudo python sharpe_analyzer.py $i $holding_period $trigger $market $bin $switch >> sharpe_r.txt 
+    echo "counter is" $COUNTER >> sharpe_r2.txt
+    sudo python ls_analyzer.py $i $holding_period $trigger $market $bin $switch >> sharpe_r2.txt 
 fi
 COUNTER=$((COUNTER+1))
 echo $COUNTER
