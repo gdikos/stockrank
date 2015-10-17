@@ -6,10 +6,12 @@ import math
 import sys
 import scipy
 import scipy.stats.stats
+from pydoc import help
+from scipy.stats.stats import pearsonr
 # QSTK Imports
 import QSTK.qstkutil.DataAccess as da
 import QSTK.qstkutil.qsdateutil as du
-
+import QSTK.qstkutil.tsutil as tsu
 def get_symbols(s_list_index):
     dataobj = da.DataAccess("Yahoo")
     
@@ -30,6 +32,7 @@ def get_sharpe(df_prices,i_lookback):
     df_sharpe = np.NAN * copy.deepcopy(df_prices)
     for s_symbol in df_prices.columns:
         ts_price = df_prices[s_symbol]
+        tsu.returnize0(ts_price)
         ts_mid = pd.rolling_mean(ts_price, i_lookback)
         ts_std = pd.rolling_std(ts_price, i_lookback)
         df_sharpe[s_symbol] = (ts_mid*math.sqrt(i_lookback))/ts_std 
@@ -37,7 +40,7 @@ def get_sharpe(df_prices,i_lookback):
     for i in range(1, len(ldt_timestamps)):
 	df_sharpe.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_sharpe.ix[ldt_timestamps[i]]) 
 
-    return df_sharpe 
+    return df_sharpe, ts_price 
 
 def save_sharpe(df_sharpe, s_out_file_path):
     df_sharpe.to_csv(s_out_file_path, sep=",", header=True, index=True)
@@ -116,11 +119,15 @@ def find_momentum(df_prices, trigger, market, switch, switch2, i_lookback):
                     if (f_symprice_end - f_symprice_beg) < -(trigger*switch)*f_symprice_beg and (f_market_end - f_market_beg) > (market*switch2)*f_market_beg :
                         df_momentum[s_sym].ix[ldt_timestamps[i]] = 1
                         count = count + 1
-#                        print count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
+                        print i, s_sym, count
+                        #print count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
     return df_momentum, count
 
 def save_momentum(df_momentum, s_out_file_path):
     df_momentum.to_csv(s_out_file_path, sep=",", header=True, index=True)
+
+def cross(df_prices):
+    pearsonr(x,y) 
 
 def generate_order(ldt_dates, t, delta_t, s_symbol, i_num):
     l_buy_order = [ldt_dates[t], s_symbol, "Buy", i_num]  
@@ -157,8 +164,8 @@ def save_orders(df_orders, s_out_file_path):
 if __name__ == '__main__':
 #    print "start bollinger_events.py"
 
-    s_list_index = "finna" 
-    s_index = "IXIC"
+    s_list_index = "ase_w" 
+    s_index = "FTSE.AT"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -168,14 +175,16 @@ if __name__ == '__main__':
     style=sys.argv[7]
     s_num = "100"
     s_start = "2004-09-01"
-    s_end = "2015-09-01" 
+    s_end = "2015-10-09" 
 
-    s_sharpe_file_path = "q4_sharpe" + ".csv"
-    s_momentum_file_path = "q4_momentum" + ".csv"
-    s_bollingers_file_path = "data\\q1_bollinger" + ".csv"
-    s_events_file_path = "data\\q1_bollinger_events" + ".csv"
-    s_events_img_path = "data\\q1_bollinger_events" + ".pdf"
-    s_orders_file_path = "q4_orders" + ".csv"
+    s_sharpe_file_path = "sharpe" + ".csv"
+    s_momentum_file_path = "momentum" + ".csv"
+    s_bollingers_file_path = "q1_bollinger" + ".csv"
+    s_events_file_path = "q1_events" + ".csv"
+    s_momentum_file_path = "q1_momentum" + ".csv"
+    s_events_img_path = "q1_bollinger_events" + ".pdf"
+    s_orders_file_path = "orders" + ".csv"
+    s_ret_file_path = "ret"+".csv"
     trigger=float(trigger) 
     market=float(market) 
     switch=float(switch)
@@ -188,7 +197,7 @@ if __name__ == '__main__':
     dt_end = dt.datetime.strptime(s_end, "%Y-%m-%d")
     
     ls_symbols = get_symbols(s_list_index)
-    ls_symbols.append(s_index)
+    #ls_symbols.append(s_index)
     d_data = get_data(dt_start, dt_end, ls_symbols)
     #print ls_symbols[-1]    
     d_data['close'].to_csv("data.csv")
@@ -206,15 +215,16 @@ if __name__ == '__main__':
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
     #sharpe = get_sharpe(d_data["actual_close"],i_lookback)
     #print sharpe["ALPHA.AT"]
-        save_momentum(df_momentum_events, s_sharpe_file_path)
+        save_momentum(df_momentum_events, s_momentum_file_path)
 	df_orders = generate_orders(df_momentum_events, i_num, delta_t)
     	save_orders(df_orders, s_orders_file_path)
     	print count, "momentum"
     if (style==0):
     # 	print "sharpe rank"
-        df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
+        df_sharpe, rets= get_sharpe(d_data["actual_close"], i_lookback)
     	save_sharpe(df_sharpe, s_sharpe_file_path)
-    	df_sharpe_events, count = find_sharpe_events(df_sharpe,trigger,market,switch,switch2,i_lookback)
+    	save_sharpe(rets, s_ret_file_path)
+        df_sharpe_events, count = find_sharpe_events(df_sharpe,trigger,market,switch,switch2,i_lookback)
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
     # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
     #print sharpe["ALPHA.AT"]

@@ -916,3 +916,318 @@ counter is 450
 17100 bollinger
 counter is 451
 8436 bollinger
+counter is 452
+6030 bollinger
+counter is 453
+14706 bollinger
+counter is 454
+17100 bollinger
+counter is 455
+8436 bollinger
+counter is 456
+5999 bollinger
+counter is 457
+counter is 424
+5999 bollinger
+counter is 425
+14661 bollinger
+counter is 426
+17151 bollinger
+counter is 427
+8502 bollinger
+counter is 428
+5999 bollinger
+counter is 429
+14665 bollinger
+counter is 430
+17156 bollinger
+counter is 431
+8506 bollinger
+counter is 432
+6036 bollinger
+counter is 433
+14714 bollinger
+counter is 434
+17106 bollinger
+counter is 435
+8440 bollinger
+counter is 436
+6036 bollinger
+counter is 437
+14714 bollinger
+counter is 438
+17106 bollinger
+counter is 439
+8440 bollinger
+counter is 440
+6036 bollinger
+counter is 441
+14714 bollinger
+counter is 442
+17106 bollinger
+counter is 443
+8440 bollinger
+counter is 444
+6036 bollinger
+counter is 445
+14714 bollinger
+counter is 446
+17106 bollinger
+counter is 447
+8440 bollinger
+counter is 448
+6036 bollinger
+counter is 449
+14714 bollinger
+counter is 450
+17106 bollinger
+counter is 451
+8440 bollinger
+counter is 452
+6036 bollinger
+counter is 453
+14714 bollinger
+counter is 454
+17106 bollinger
+counter is 455
+8440 bollinger
+counter is 456
+6002 bollinger
+counter is 457
+14665 bollinger
+counter is 458
+17156 bollinger
+counter is 459
+8506 bollinger
+counter is 460
+6002 bollinger
+counter is 461
+14665 bollinger
+counter is 462
+17156 bollinger
+counter is 463
+8506 bollinger
+counter is 464
+6002 bollinger
+counter is 465
+14665 bollinger
+counter is 466
+17156 bollinger
+counter is 467
+8506 bollinger
+counter is 468
+6002 bollinger
+counter is 469
+14665 bollinger
+counter is 470
+17156 bollinger
+counter is 471
+8506 bollinger
+counter is 472
+6002 bollinger
+counter is 473
+14665 bollinger
+counter is 474
+17156 bollinger
+counter is 475
+8506 bollinger
+counter is 476
+6002 bollinger
+counter is 477
+14665 bollinger
+counter is 478
+17156 bollinger
+counter is 479
+8506 bollinger
+counter is 480
+2828 bollinger
+counter is 481
+4640 bollinger
+counter is 482
+5530 bollinger
+counter is 483
+3713 bollinger
+counter is 484
+2768 bollinger
+counter is 485
+4617 bollinger
+counter is 486
+5590 bollinger
+counter is 487
+3736 bollinger
+counter is 488
+2828 bollinger
+counter is 489
+4640 bollinger
+counter is 490
+5530 bollinger
+counter is 491
+3713 bollinger
+counter is 492
+2763 bollinger
+counter is 493
+4595 bollinger
+counter is 494
+5605 bollinger
+counter is 495
+3772 bollinger
+counter is 496
+2699 bollinger
+counter is 497
+4571 bollinger
+counter is 498
+5669 bollinger
+counter is 499
+3796 bollinger
+counter is 500
+2763 bollinger
+counter is 501
+4595 bollinger
+counter is 502
+5605 bollinger
+counter is 503
+3772 bollinger
+counter is 504
+2626 bollinger
+counter is 505
+4491 bollinger
+counter is 506
+5778 bollinger
+counter is 507
+3917 bollinger
+counter is 508
+2571 bollinger
+counter is 509
+4460 bollinger
+counter is 510
+5833 bollinger
+counter is 511
+3948 bollinger
+counter is 512
+2626 bollinger
+counter is 513
+4491 bollinger
+counter is 514
+5778 bollinger
+counter is 515
+3917 bollinger
+counter is 516
+2591 bollinger
+counter is 517
+4427 bollinger
+counter is 518
+5822 bollinger
+counter is 519
+3989 bollinger
+counter is 520
+2535 bollinger
+counter is 521
+4398 bollinger
+counter is 522
+5878 bollinger
+counter is 523
+4018 bollinger
+counter is 524
+2591 bollinger
+counter is 525
+4427 bollinger
+counter is 526
+5822 bollinger
+counter is 527
+3989 bollinger
+counter is 528
+2828 bollinger
+counter is 529
+4640 bollinger
+counter is 530
+5530 bollinger
+counter is 531
+3713 bollinger
+counter is 532
+2768 bollinger
+counter is 533
+4617 bollinger
+counter is 534
+5590 bollinger
+counter is 535
+3736 bollinger
+counter is 536
+2828 bollinger
+counter is 537
+4640 bollinger
+counter is 538
+5530 bollinger
+counter is 539
+3713 bollinger
+counter is 540
+2763 bollinger
+counter is 541
+4595 bollinger
+counter is 542
+5605 bollinger
+counter is 543
+3772 bollinger
+counter is 544
+2699 bollinger
+counter is 545
+4571 bollinger
+counter is 546
+5669 bollinger
+counter is 547
+3796 bollinger
+counter is 548
+2763 bollinger
+counter is 549
+4595 bollinger
+counter is 550
+5605 bollinger
+counter is 551
+3772 bollinger
+counter is 552
+2626 bollinger
+counter is 553
+4491 bollinger
+counter is 554
+5778 bollinger
+counter is 555
+3917 bollinger
+counter is 556
+2571 bollinger
+counter is 557
+4460 bollinger
+counter is 558
+5833 bollinger
+counter is 559
+3948 bollinger
+counter is 560
+2626 bollinger
+counter is 561
+4491 bollinger
+counter is 562
+5778 bollinger
+counter is 563
+3917 bollinger
+counter is 564
+2591 bollinger
+counter is 565
+4427 bollinger
+counter is 566
+5822 bollinger
+counter is 567
+3989 bollinger
+counter is 568
+2535 bollinger
+counter is 569
+4398 bollinger
+counter is 570
+5878 bollinger
+counter is 571
+4018 bollinger
+counter is 572
+2591 bollinger
+counter is 573
+4427 bollinger
+counter is 574
+5822 bollinger
+counter is 575
+3989 bollinger
