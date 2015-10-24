@@ -1,0 +1,409 @@
+counter is 56
+1 30 0 0 -1 0 -1.1465784042 -0.294541911144
+counter is 12
+1 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 57
+1 30 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 58
+1 30 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 13
+1 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 59
+1 30 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 14
+1 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 60
+1 30 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 61
+counter is 15
+1 30 0 0 1 0 -1.21976882984 -0.741374476233
+1 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 62
+1 30 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 16
+1 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 63
+1 30 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 17
+1 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 64
+1 30 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 18
+1 5 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 65
+1 30 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 66
+1 30 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 19
+1 5 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 67
+1 30 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 20
+1 5 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 68
+1 30 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 21
+1 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 69
+1 30 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 22
+1 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 70
+1 30 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 71
+1 30 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 23
+1 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 72
+2 5 0 0 -1 0 -1.1465784042 -0.294541911144
+counter is 24
+1 10 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 73
+2 5 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 25
+1 10 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 74
+2 5 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 75
+2 5 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 26
+1 10 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 76
+2 5 0 0 -1 0 -1.04549862185 -1.05442052416
+counter is 27
+1 10 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 77
+2 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 28
+1 10 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 78
+2 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 29
+1 10 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 79
+2 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 30
+1 10 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 80
+2 5 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 31
+1 10 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 81
+2 5 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 82
+2 5 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 32
+1 10 0 0 -1 0 -0.350923427078 0.00255483631867
+counter is 83
+counter is 33
+2 5 0 0 -1 0 -1.1465784042 -0.294541911144
+1 10 0 0 -1 0 -1.1465784042 -0.294541911144
+counter is 84
+2 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 34
+1 10 0 0 -1 0 -1.1465784042 -0.294541911144
+counter is 85
+2 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 35
+1 10 0 0 -1 0 -1.1465784042 -0.294541911144
+counter is 86
+2 5 0 0 1 0 -1.1465784042 -0.294541911144
+counter is 1
+counter is 36
+1 5 0 0 -1 0 -1.04549862185 -1.05442052416
+1 10 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 87
+2 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 2
+counter is 37
+1 5 0 0 -1 0 -1.04549862185 -1.05442052416
+1 10 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 88
+2 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 89
+counter is 3
+2 5 0 0 1 0 -1.21976882984 -0.741374476233
+1 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 38
+1 10 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 90
+2 5 0 0 1 0 -1.04549862185 -1.05442052416
+counter is 4
+1 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 39
+1 10 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 91
+2 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 5
+1 5 0 0 -1 0 -1.21976882984 -0.741374476233
+counter is 40
+1 10 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 6
+counter is 7
+counter is 8
+counter is 9
+counter is 10
+counter is 11
+counter is 12
+counter is 13
+counter is 14
+counter is 15
+counter is 16
+counter is 17
+counter is 18
+counter is 19
+counter is 20
+counter is 21
+counter is 22
+counter is 23
+counter is 24
+counter is 25
+counter is 26
+counter is 27
+counter is 28
+counter is 29
+counter is 30
+counter is 31
+counter is 32
+counter is 33
+counter is 34
+counter is 35
+counter is 36
+counter is 37
+counter is 38
+counter is 39
+counter is 40
+counter is 92
+counter is 41
+counter is 42
+counter is 43
+counter is 44
+counter is 45
+counter is 46
+counter is 47
+counter is 48
+counter is 49
+counter is 50
+2 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 51
+counter is 52
+counter is 53
+counter is 54
+counter is 55
+counter is 56
+counter is 57
+counter is 58
+counter is 59
+counter is 60
+counter is 61
+counter is 62
+counter is 63
+counter is 64
+counter is 65
+counter is 66
+counter is 67
+counter is 68
+counter is 69
+counter is 70
+counter is 71
+counter is 72
+counter is 73
+counter is 74
+counter is 75
+counter is 76
+counter is 77
+counter is 78
+counter is 79
+counter is 80
+counter is 81
+counter is 82
+counter is 83
+counter is 84
+counter is 85
+counter is 86
+counter is 87
+counter is 88
+counter is 89
+counter is 90
+counter is 91
+counter is 92
+counter is 93
+counter is 94
+counter is 95
+counter is 96
+counter is 97
+counter is 98
+counter is 99
+counter is 100
+counter is 101
+counter is 102
+counter is 103
+counter is 104
+counter is 105
+counter is 106
+counter is 107
+counter is 108
+counter is 109
+counter is 110
+counter is 111
+counter is 112
+counter is 113
+counter is 114
+counter is 115
+counter is 116
+counter is 117
+counter is 118
+counter is 119
+counter is 120
+counter is 121
+counter is 122
+counter is 123
+counter is 124
+counter is 125
+counter is 126
+counter is 127
+counter is 128
+counter is 129
+counter is 130
+counter is 131
+counter is 132
+counter is 133
+counter is 134
+counter is 135
+counter is 136
+counter is 137
+counter is 138
+counter is 139
+counter is 140
+counter is 141
+counter is 142
+counter is 143
+counter is 144
+counter is 145
+counter is 146
+counter is 147
+counter is 148
+counter is 149
+counter is 150
+counter is 151
+counter is 152
+counter is 153
+counter is 154
+counter is 155
+counter is 156
+counter is 157
+counter is 158
+counter is 159
+counter is 160
+counter is 161
+counter is 162
+counter is 163
+counter is 164
+counter is 165
+counter is 166
+counter is 167
+counter is 168
+counter is 169
+counter is 170
+counter is 171
+counter is 172
+counter is 173
+counter is 174
+counter is 175
+counter is 176
+counter is 177
+counter is 178
+counter is 179
+counter is 180
+counter is 181
+counter is 182
+counter is 183
+counter is 184
+counter is 185
+counter is 186
+counter is 187
+counter is 188
+counter is 189
+counter is 190
+counter is 191
+counter is 192
+counter is 193
+counter is 194
+counter is 195
+counter is 196
+counter is 197
+counter is 198
+counter is 199
+counter is 200
+counter is 201
+counter is 202
+counter is 203
+counter is 204
+counter is 205
+counter is 206
+counter is 207
+counter is 208
+counter is 209
+counter is 210
+counter is 211
+counter is 212
+counter is 213
+counter is 214
+counter is 215
+counter is 216
+counter is 217
+counter is 218
+counter is 219
+counter is 220
+counter is 221
+counter is 222
+counter is 223
+counter is 224
+counter is 225
+counter is 226
+counter is 227
+counter is 228
+counter is 229
+counter is 230
+counter is 231
+counter is 232
+counter is 233
+counter is 234
+counter is 235
+counter is 236
+counter is 237
+counter is 238
+counter is 239
+counter is 240
+counter is 241
+counter is 242
+counter is 243
+counter is 244
+counter is 245
+counter is 246
+counter is 247
+counter is 248
+counter is 41
+counter is 93
+1 10 0 0 1 0 -1.21976882984 -0.741374476233
+2 5 0 0 1 0 -1.21976882984 -0.741374476233
+counter is 249
+1 10 0 0 -1 0 -0.899385237163 -0.220137732796
+counter is 94
+2 5 0 0 1 0 -0.899385237163 -0.220137732796
+counter is 42
+1 10 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 250
+1 10 0 0 -1 0 -0.617572878947 -0.188421263919
+counter is 95
+2 5 0 0 1 0 -0.617572878947 -0.188421263919
+counter is 43
+1 10 0 0 1 0 -0.350923427078 0.00255483631867
+counter is 251
+1 10 0 0 -1 0 -0.598267355089 -0.116975137883
+counter is 96
+2 10 0 0 -1 0 -0.598267355089 -0.116975137883
+counter is 252
+counter is 44
+1 10 0 0 1 0 -0.350923427078 0.00255483631867
+1 10 0 0 1 0 -0.350923427078 0.00255483631867
