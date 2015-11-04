@@ -1,1153 +1,185 @@
-counter is 1
-11136 sharpe_rank
-counter is 2
-8941 sharpe_rank
-counter is 3
-8941 sharpe_rank
-counter is 4
-10192 sharpe_rank
-counter is 5
-10192 sharpe_rank
-counter is 6
-10129 sharpe_rank
-counter is 7
-10129 sharpe_rank
-counter is 8
-11136 sharpe_rank
-counter is 9
-11136 sharpe_rank
-counter is 10
-8941 sharpe_rank
-counter is 11
-8941 sharpe_rank
-counter is 12
-9420 sharpe_rank
-counter is 13
-9420 sharpe_rank
-counter is 14
-7620 sharpe_rank
-counter is 15
-7620 sharpe_rank
-counter is 16
-8626 sharpe_rank
-counter is 17
-8626 sharpe_rank
-counter is 18
-8627 sharpe_rank
-counter is 19
-8627 sharpe_rank
-counter is 20
-9420 sharpe_rank
-counter is 21
-9420 sharpe_rank
-counter is 22
-7620 sharpe_rank
-counter is 23
-7620 sharpe_rank
-counter is 24
-4939 sharpe_rank
-counter is 25
-4939 sharpe_rank
-counter is 26
-4091 sharpe_rank
-counter is 27
-4091 sharpe_rank
-counter is 28
-4552 sharpe_rank
-counter is 29
-4552 sharpe_rank
-counter is 30
-4585 sharpe_rank
-counter is 31
-4585 sharpe_rank
-counter is 32
-4939 sharpe_rank
-counter is 33
-4939 sharpe_rank
-counter is 34
-4091 sharpe_rank
-counter is 35
-4091 sharpe_rank
-counter is 36
-3394 sharpe_rank
-counter is 37
-3394 sharpe_rank
-counter is 38
-2754 sharpe_rank
-counter is 39
-2754 sharpe_rank
-counter is 40
-3133 sharpe_rank
-counter is 41
-3133 sharpe_rank
-counter is 42
-3083 sharpe_rank
-counter is 43
-3083 sharpe_rank
-counter is 44
-3394 sharpe_rank
-counter is 45
-3394 sharpe_rank
-counter is 46
-2754 sharpe_rank
-counter is 47
-2754 sharpe_rank
-counter is 48
-11136 sharpe_rank
-counter is 49
-11136 sharpe_rank
-counter is 50
-8941 sharpe_rank
-counter is 51
-8941 sharpe_rank
-counter is 52
-10192 sharpe_rank
-counter is 53
-10192 sharpe_rank
-counter is 54
-10129 sharpe_rank
-counter is 55
-10129 sharpe_rank
-counter is 56
-11136 sharpe_rank
-counter is 57
-11136 sharpe_rank
-counter is 58
-8941 sharpe_rank
-counter is 59
-8941 sharpe_rank
-counter is 60
-9420 sharpe_rank
-counter is 61
-9420 sharpe_rank
-counter is 62
-7620 sharpe_rank
-counter is 63
-7620 sharpe_rank
-counter is 64
-8626 sharpe_rank
-counter is 65
-8626 sharpe_rank
-counter is 66
-8627 sharpe_rank
-counter is 67
-8627 sharpe_rank
-counter is 68
-9420 sharpe_rank
-counter is 69
-9420 sharpe_rank
-counter is 70
-7620 sharpe_rank
-counter is 71
-7620 sharpe_rank
-counter is 72
-4939 sharpe_rank
-counter is 73
-4939 sharpe_rank
-counter is 74
-4091 sharpe_rank
-counter is 75
-4091 sharpe_rank
-counter is 76
-4552 sharpe_rank
-counter is 77
-4552 sharpe_rank
-counter is 78
-4585 sharpe_rank
-counter is 79
-4585 sharpe_rank
-counter is 80
-4939 sharpe_rank
-counter is 81
-4939 sharpe_rank
-counter is 82
-4091 sharpe_rank
-counter is 83
-4091 sharpe_rank
-counter is 84
-3394 sharpe_rank
-counter is 85
-3394 sharpe_rank
-counter is 86
-2754 sharpe_rank
-counter is 87
-2754 sharpe_rank
-counter is 88
-3133 sharpe_rank
-counter is 89
-3133 sharpe_rank
-counter is 90
-3083 sharpe_rank
-counter is 91
-3083 sharpe_rank
-counter is 92
-3394 sharpe_rank
-counter is 93
-3394 sharpe_rank
-counter is 94
-2754 sharpe_rank
-counter is 95
-2754 sharpe_rank
-counter is 96
-10910 sharpe_rank
-counter is 97
-10910 sharpe_rank
-counter is 98
-8764 sharpe_rank
-counter is 99
-8764 sharpe_rank
-counter is 100
-10303 sharpe_rank
-counter is 101
-10303 sharpe_rank
-counter is 102
-9953 sharpe_rank
-counter is 103
-9953 sharpe_rank
-counter is 104
-10910 sharpe_rank
-counter is 105
-10910 sharpe_rank
-counter is 106
-8764 sharpe_rank
-counter is 107
-8764 sharpe_rank
-counter is 108
-9271 sharpe_rank
-counter is 109
-9271 sharpe_rank
-counter is 110
-7457 sharpe_rank
-counter is 111
-7457 sharpe_rank
-counter is 112
-8755 sharpe_rank
-counter is 113
-8755 sharpe_rank
-counter is 114
-8472 sharpe_rank
-counter is 115
-8472 sharpe_rank
-counter is 116
-9271 sharpe_rank
-counter is 117
-9271 sharpe_rank
-counter is 118
-7457 sharpe_rank
-counter is 119
-7457 sharpe_rank
-counter is 120
-4981 sharpe_rank
-counter is 121
-4981 sharpe_rank
-counter is 122
-4087 sharpe_rank
-counter is 123
-4087 sharpe_rank
-counter is 124
-4714 sharpe_rank
-counter is 125
-4714 sharpe_rank
-counter is 126
-4588 sharpe_rank
-counter is 127
-4588 sharpe_rank
-counter is 128
-4981 sharpe_rank
-counter is 129
-4981 sharpe_rank
-counter is 130
-4087 sharpe_rank
-counter is 131
-4087 sharpe_rank
-counter is 132
-3439 sharpe_rank
-counter is 133
-3439 sharpe_rank
-counter is 134
-2879 sharpe_rank
-counter is 135
-2879 sharpe_rank
-counter is 136
-3252 sharpe_rank
-counter is 137
-3252 sharpe_rank
-counter is 138
-3224 sharpe_rank
-counter is 139
-3224 sharpe_rank
-counter is 140
-3439 sharpe_rank
-counter is 141
-3439 sharpe_rank
-counter is 142
-2879 sharpe_rank
-counter is 143
-2879 sharpe_rank
-counter is 144
-10910 sharpe_rank
-counter is 145
-10910 sharpe_rank
-counter is 146
-8764 sharpe_rank
-counter is 147
-8764 sharpe_rank
-counter is 148
-10303 sharpe_rank
-counter is 149
-10303 sharpe_rank
-counter is 150
-9953 sharpe_rank
-counter is 151
-9953 sharpe_rank
-counter is 152
-10910 sharpe_rank
-counter is 153
-10910 sharpe_rank
-counter is 154
-8764 sharpe_rank
-counter is 155
-8764 sharpe_rank
-counter is 156
-9271 sharpe_rank
-counter is 157
-9271 sharpe_rank
-counter is 158
-7457 sharpe_rank
-counter is 159
-7457 sharpe_rank
-counter is 160
-8755 sharpe_rank
-counter is 161
-8755 sharpe_rank
-counter is 162
-8472 sharpe_rank
-counter is 163
-8472 sharpe_rank
-counter is 164
-9271 sharpe_rank
-counter is 165
-9271 sharpe_rank
-counter is 166
-7457 sharpe_rank
-counter is 167
-7457 sharpe_rank
-counter is 168
-4981 sharpe_rank
-counter is 169
-4981 sharpe_rank
-counter is 170
-4087 sharpe_rank
-counter is 171
-4087 sharpe_rank
-counter is 172
-4714 sharpe_rank
-counter is 173
-4714 sharpe_rank
-counter is 174
-4588 sharpe_rank
-counter is 175
-4588 sharpe_rank
-counter is 176
-4981 sharpe_rank
-counter is 177
-4981 sharpe_rank
-counter is 178
-4087 sharpe_rank
-counter is 179
-4087 sharpe_rank
-counter is 180
-3439 sharpe_rank
-counter is 181
-3439 sharpe_rank
-counter is 182
-2879 sharpe_rank
-counter is 183
-2879 sharpe_rank
-counter is 184
-3252 sharpe_rank
-counter is 185
-3252 sharpe_rank
-counter is 186
-3224 sharpe_rank
-counter is 187
-3224 sharpe_rank
-counter is 188
-3439 sharpe_rank
-counter is 189
-3439 sharpe_rank
-counter is 190
-2879 sharpe_rank
-counter is 191
-2879 sharpe_rank
-counter is 192
-8 momentum
-counter is 193
-4 momentum
-counter is 194
-25613 momentum
-counter is 195
-315 momentum
-counter is 196
-6 momentum
-counter is 197
-6 momentum
-counter is 198
-14595 momentum
-counter is 199
-14595 momentum
-counter is 200
-8 momentum
-counter is 201
-4 momentum
-counter is 202
-25613 momentum
-counter is 203
-315 momentum
-counter is 204
-105 momentum
-counter is 205
-10 momentum
-counter is 206
-25518 momentum
-counter is 207
-305 momentum
-counter is 208
-69 momentum
-counter is 209
-69 momentum
-counter is 210
-14546 momentum
-counter is 211
-14546 momentum
-counter is 212
-105 momentum
-counter is 213
-10 momentum
-counter is 214
-25518 momentum
-counter is 215
-305 momentum
-counter is 216
-25518 momentum
-counter is 217
-305 momentum
-counter is 218
-105 momentum
-counter is 219
-10 momentum
-counter is 220
-14546 momentum
-counter is 221
-14546 momentum
-counter is 222
-69 momentum
-counter is 223
-69 momentum
-counter is 224
-25518 momentum
-counter is 225
-305 momentum
-counter is 226
-105 momentum
-counter is 227
-10 momentum
-counter is 228
-25613 momentum
-counter is 229
-315 momentum
-counter is 230
-8 momentum
-counter is 231
-4 momentum
-counter is 232
-14595 momentum
-counter is 233
-14595 momentum
-counter is 234
-6 momentum
-counter is 235
-6 momentum
-counter is 236
-25613 momentum
-counter is 237
-315 momentum
-counter is 238
-8 momentum
-counter is 239
-4 momentum
-counter is 240
-8 momentum
-counter is 241
-4 momentum
-counter is 242
-25613 momentum
-counter is 243
-315 momentum
-counter is 244
-6 momentum
-counter is 245
-6 momentum
-counter is 246
-14595 momentum
-counter is 247
-14595 momentum
-counter is 248
-8 momentum
-counter is 249
-4 momentum
-counter is 250
-25613 momentum
-counter is 251
-315 momentum
-counter is 252
-105 momentum
-counter is 253
-10 momentum
-counter is 254
-25518 momentum
-counter is 255
-305 momentum
-counter is 256
-69 momentum
-counter is 257
-69 momentum
-counter is 258
-14546 momentum
-counter is 259
-14546 momentum
-counter is 260
-105 momentum
-counter is 261
-10 momentum
-counter is 262
-25518 momentum
-counter is 263
-305 momentum
-counter is 264
-25518 momentum
-counter is 265
-305 momentum
-counter is 266
-105 momentum
-counter is 267
-10 momentum
-counter is 268
-14546 momentum
-counter is 269
-14546 momentum
-counter is 270
-69 momentum
-counter is 271
-69 momentum
-counter is 272
-25518 momentum
-counter is 273
-305 momentum
-counter is 274
-105 momentum
-counter is 275
-10 momentum
-counter is 276
-25613 momentum
-counter is 277
-315 momentum
-counter is 278
-8 momentum
-counter is 279
-4 momentum
-counter is 280
-14595 momentum
-counter is 281
-14595 momentum
-counter is 282
-6 momentum
-counter is 283
-6 momentum
-counter is 284
-25613 momentum
-counter is 285
-315 momentum
-counter is 286
-8 momentum
-counter is 287
-4 momentum
-counter is 288
-999 momentum
-counter is 289
-565 momentum
-counter is 290
-211006 momentum
-counter is 291
-35584 momentum
-counter is 292
-counter is 292
-788 momentum
-counter is 293
-788 momentum
-counter is 294
-138740 momentum
-counter is 295
-138740 momentum
-counter is 296
-998 momentum
-counter is 297
-564 momentum
-counter is 298
-211006 momentum
-counter is 299
-35584 momentum
-counter is 300
-5916 momentum
-counter is 301
-1750 momentum
-counter is 302
-201015 momentum
-counter is 303
-29897 momentum
-counter is 304
-3756 momentum
-counter is 305
-3756 momentum
-counter is 306
-130018 momentum
-counter is 307
-130018 momentum
-counter is 308
-5916 momentum
-counter is 309
-1750 momentum
-counter is 310
-201015 momentum
-counter is 311
-29897 momentum
-counter is 312
-201015 momentum
-counter is 313
-29897 momentum
-counter is 314
-5916 momentum
-counter is 315
-1750 momentum
-counter is 316
-130018 momentum
-counter is 317
-130018 momentum
-counter is 318
-3756 momentum
-counter is 319
-3756 momentum
-counter is 320
-201015 momentum
-counter is 321
-29897 momentum
-counter is 322
-5916 momentum
-counter is 323
-1750 momentum
-counter is 324
-211006 momentum
-counter is 325
-35584 momentum
-counter is 326
-998 momentum
-counter is 327
-564 momentum
-counter is 328
-138740 momentum
-counter is 329
-138740 momentum
-counter is 330
-787 momentum
-counter is 331
-787 momentum
-counter is 332
-211006 momentum
-counter is 333
-35584 momentum
-counter is 334
-998 momentum
-counter is 335
-564 momentum
-counter is 336
-998 momentum
-counter is 337
-564 momentum
-counter is 338
-211006 momentum
-counter is 339
-35584 momentum
-counter is 340
-787 momentum
-counter is 341
-787 momentum
-counter is 342
-138740 momentum
-counter is 343
-138740 momentum
-counter is 344
-998 momentum
-counter is 345
-564 momentum
-counter is 346
-211006 momentum
-counter is 347
-35584 momentum
-counter is 348
-5916 momentum
-counter is 349
-1750 momentum
-counter is 350
-201015 momentum
-counter is 351
-29897 momentum
-counter is 352
-3756 momentum
-counter is 353
-3756 momentum
-counter is 354
-130018 momentum
-counter is 355
-130018 momentum
-counter is 356
-5916 momentum
-counter is 357
-1750 momentum
-counter is 358
-201015 momentum
-counter is 359
-29897 momentum
-counter is 360
-201015 momentum
-counter is 361
-29897 momentum
-counter is 362
-5916 momentum
-counter is 363
-1750 momentum
-counter is 364
-130018 momentum
-counter is 365
-130018 momentum
-counter is 366
-3756 momentum
-counter is 367
-3756 momentum
-counter is 368
-201015 momentum
-counter is 369
-29897 momentum
-counter is 370
-5916 momentum
-counter is 371
-1750 momentum
-counter is 372
-211006 momentum
-counter is 373
-35584 momentum
-counter is 374
-998 momentum
-counter is 375
-564 momentum
-counter is 376
-138740 momentum
-counter is 377
-138740 momentum
-counter is 378
-787 momentum
-counter is 379
-787 momentum
-counter is 380
-211006 momentum
-counter is 381
-35584 momentum
-counter is 382
-998 momentum
-counter is 383
-564 momentum
-counter is 384
-1806 bollinger
-counter is 385
-4070 bollinger
-counter is 386
-4790 bollinger
-counter is 387
-2525 bollinger
-counter is 388
-1806 bollinger
-counter is 389
-4070 bollinger
-counter is 390
-4790 bollinger
 counter is 391
-2525 bollinger
-counter is 391
-2525 bollinger
 counter is 392
-1806 bollinger
 counter is 393
-4070 bollinger
 counter is 394
-4790 bollinger
 counter is 395
-2525 bollinger
 counter is 396
-1806 bollinger
 counter is 397
-4070 bollinger
 counter is 398
-4790 bollinger
 counter is 399
-2525 bollinger
 counter is 400
-1806 bollinger
 counter is 401
-4070 bollinger
 counter is 402
-4790 bollinger
 counter is 403
-2525 bollinger
 counter is 404
-1806 bollinger
 counter is 405
-4070 bollinger
 counter is 406
-4790 bollinger
 counter is 407
-2525 bollinger
 counter is 408
-1811 bollinger
 counter is 409
-4054 bollinger
 counter is 410
-4797 bollinger
 counter is 411
-2554 bollinger
 counter is 412
-1811 bollinger
 counter is 413
-4054 bollinger
 counter is 414
-4797 bollinger
 counter is 415
-2554 bollinger
 counter is 416
-1811 bollinger
 counter is 417
-4054 bollinger
 counter is 418
-4797 bollinger
 counter is 419
-2554 bollinger
 counter is 420
-1811 bollinger
 counter is 421
-4054 bollinger
 counter is 422
-4797 bollinger
 counter is 423
-2554 bollinger
 counter is 424
-1811 bollinger
 counter is 425
-4054 bollinger
 counter is 426
-4797 bollinger
 counter is 427
-2554 bollinger
 counter is 428
-1811 bollinger
 counter is 429
-4054 bollinger
 counter is 430
-4797 bollinger
 counter is 431
-2554 bollinger
 counter is 432
-1806 bollinger
 counter is 433
-4070 bollinger
 counter is 434
-4790 bollinger
 counter is 435
-2525 bollinger
 counter is 436
-1806 bollinger
 counter is 437
-4070 bollinger
 counter is 438
-4790 bollinger
 counter is 439
-2525 bollinger
 counter is 440
-1806 bollinger
 counter is 441
-4070 bollinger
 counter is 442
-4790 bollinger
 counter is 443
-2525 bollinger
 counter is 444
-1806 bollinger
 counter is 445
-4070 bollinger
 counter is 446
-4790 bollinger
 counter is 447
-2525 bollinger
 counter is 448
-1806 bollinger
 counter is 449
-4070 bollinger
 counter is 450
-4790 bollinger
 counter is 451
-2525 bollinger
 counter is 452
-1806 bollinger
 counter is 453
-4070 bollinger
 counter is 454
-4790 bollinger
 counter is 455
-2525 bollinger
 counter is 456
-1811 bollinger
 counter is 457
-4054 bollinger
 counter is 458
-4797 bollinger
 counter is 459
-2554 bollinger
 counter is 460
-1811 bollinger
 counter is 461
-4054 bollinger
 counter is 462
-4797 bollinger
 counter is 463
-2554 bollinger
 counter is 464
-1811 bollinger
 counter is 465
-4054 bollinger
 counter is 466
-4797 bollinger
 counter is 467
-2554 bollinger
 counter is 468
-1811 bollinger
 counter is 469
-4054 bollinger
 counter is 470
-4797 bollinger
 counter is 471
-2554 bollinger
 counter is 472
-1811 bollinger
 counter is 473
-4054 bollinger
 counter is 474
-4797 bollinger
 counter is 475
-2554 bollinger
 counter is 476
-1811 bollinger
 counter is 477
-4054 bollinger
 counter is 478
-4797 bollinger
 counter is 479
-2554 bollinger
 counter is 480
-820 bollinger
 counter is 481
-1336 bollinger
 counter is 482
-1525 bollinger
 counter is 483
-1021 bollinger
 counter is 484
-794 bollinger
 counter is 485
-1324 bollinger
 counter is 486
-1551 bollinger
 counter is 487
-1033 bollinger
 counter is 488
-820 bollinger
 counter is 489
-1336 bollinger
 counter is 490
-1525 bollinger
 counter is 491
-1021 bollinger
 counter is 492
-806 bollinger
 counter is 493
-1317 bollinger
 counter is 494
-1532 bollinger
 counter is 495
-1037 bollinger
 counter is 496
-778 bollinger
 counter is 497
-1303 bollinger
 counter is 498
-1560 bollinger
 counter is 499
-1051 bollinger
 counter is 500
-806 bollinger
 counter is 501
-1317 bollinger
 counter is 502
-1532 bollinger
 counter is 503
-1037 bollinger
 counter is 504
-771 bollinger
 counter is 505
-1291 bollinger
 counter is 506
-1567 bollinger
 counter is 507
-1069 bollinger
 counter is 508
-744 bollinger
 counter is 509
-1276 bollinger
 counter is 510
-1594 bollinger
 counter is 511
-1084 bollinger
 counter is 512
-771 bollinger
 counter is 513
-1291 bollinger
 counter is 514
-1567 bollinger
 counter is 515
-1069 bollinger
 counter is 516
-768 bollinger
 counter is 517
-1272 bollinger
 counter is 518
-1578 bollinger
 counter is 519
-1097 bollinger
 counter is 520
-740 bollinger
 counter is 521
-1258 bollinger
 counter is 522
-1606 bollinger
 counter is 523
-1111 bollinger
 counter is 524
-768 bollinger
 counter is 525
-1272 bollinger
 counter is 526
-1578 bollinger
 counter is 527
-1097 bollinger
 counter is 528
-820 bollinger
 counter is 529
-1336 bollinger
 counter is 530
-1525 bollinger
 counter is 531
-1021 bollinger
 counter is 532
-794 bollinger
 counter is 533
-1324 bollinger
 counter is 534
-1551 bollinger
 counter is 535
-1033 bollinger
 counter is 536
-820 bollinger
 counter is 537
-1336 bollinger
 counter is 538
-1525 bollinger
 counter is 539
-1021 bollinger
 counter is 540
-806 bollinger
 counter is 541
-1317 bollinger
 counter is 542
-1532 bollinger
 counter is 543
-1037 bollinger
 counter is 544
-778 bollinger
 counter is 545
-1303 bollinger
 counter is 546
-1560 bollinger
 counter is 547
-1051 bollinger
 counter is 548
-806 bollinger
 counter is 549
-1317 bollinger
 counter is 550
-1532 bollinger
 counter is 551
-1037 bollinger
 counter is 552
-771 bollinger
 counter is 553
-1291 bollinger
 counter is 554
-1567 bollinger
 counter is 555
-1069 bollinger
 counter is 556
-744 bollinger
 counter is 557
-1276 bollinger
 counter is 558
-1594 bollinger
 counter is 559
-1084 bollinger
 counter is 560
-771 bollinger
 counter is 561
-1291 bollinger
 counter is 562
-1567 bollinger
 counter is 563
-1069 bollinger
 counter is 564
-768 bollinger
 counter is 565
-1272 bollinger
 counter is 566
-1578 bollinger
 counter is 567
-1097 bollinger
 counter is 568
-740 bollinger
 counter is 569
-1258 bollinger
 counter is 570
-1606 bollinger
 counter is 571
-1111 bollinger
 counter is 572
-768 bollinger
 counter is 573
-1272 bollinger
 counter is 574
-1578 bollinger
 counter is 575
-1097 bollinger

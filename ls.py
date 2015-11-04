@@ -105,7 +105,25 @@ def find_sharpe_rank(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_l
     print count
     return df_events, count
 
-def find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback):
+def find_sharpe_rank_symmetric(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile):
+    count = 0
+    df_events = np.NAN * copy.deepcopy(df_sharpe)
+    ldt_timestamps = df_sharpe.index
+    for s_symbol in ls_symbols:
+        for i in range(sharpe_lookback + 1, len(ldt_timestamps)):
+            f_sharpe_today = df_sharpe[s_symbol].ix[ldt_timestamps[i]]
+            f_sharpe_yest = df_sharpe[s_symbol].ix[ldt_timestamps[i - i_lookback ]]
+            f_sharpe_index = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i]]
+            f_sharpe_index_yest = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i-i_lookback]]
+#            print "sym", s_symbol, "yes", f_sharpe_yest, len(ls_symbols)*switch*(quantile/10), f_sharpe_today
+            if f_sharpe_yest*switch <= len(ls_symbols)*switch*quantile and f_sharpe_today*switch >= len(ls_symbols)*switch*(1-quantile) and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
+            # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
+                df_events[s_symbol].ix[ldt_timestamps[i]] = 1
+                count = count +1
+    print count
+    return df_events, count
+
+def find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile):
     count = 0
     df_events = np.NAN * copy.deepcopy(df_sharpe)
     ldt_timestamps = df_sharpe.index
@@ -115,14 +133,14 @@ def find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_loo
             f_sharpe_yest = df_sharpe[s_symbol].ix[ldt_timestamps[i - i_lookback ]]
             f_sharpe_index = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i]]
             f_sharpe_index_yest = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i-i_lookback]]
-            if f_sharpe_yest < len(ls_symbols)/2 and f_sharpe_today > len(ls_symbols)/2 and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
+            if f_sharpe_yest*switch <= len(ls_symbols)*switch*quantile and f_sharpe_today*switch >= len(ls_symbols)*switch*(1-quantile) and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
             # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
                 df_events[s_symbol].ix[ldt_timestamps[i]] = 1
                 count = count +1
     df_events.to_csv("up_sharpe" + ".csv", sep=",", header=True, index=True)    
     return df_events, count
 
-def find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback):
+def find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile):
     count = 0
     df_events = np.NAN * copy.deepcopy(df_sharpe)
     ldt_timestamps = df_sharpe.index
@@ -132,7 +150,8 @@ def find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_l
             f_sharpe_yest = df_sharpe[s_symbol].ix[ldt_timestamps[i - i_lookback ]]
             f_sharpe_index = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i]]
             f_sharpe_index_yest = df_sharpe[ls_symbols[-1]].ix[ldt_timestamps[i-i_lookback]]
-            if f_sharpe_yest > len(ls_symbols)/2 and f_sharpe_today < len(ls_symbols)/2 and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
+            if f_sharpe_yest*switch >= len(ls_symbols)*switch*(1-quantile) and f_sharpe_today*switch <= len(ls_symbols)*switch*(quantile) and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
+#           if f_sharpe_yest > len(ls_symbols)/2 and f_sharpe_today < len(ls_symbols)/2 and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
             # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
                 df_events[s_symbol].ix[ldt_timestamps[i]] = 1
                 count = count +1
@@ -170,7 +189,7 @@ def find_momentum(df_prices, trigger, market, switch, switch2, i_lookback):
                     if (f_symprice_end - f_symprice_beg) < -(trigger*switch)*f_symprice_beg and (f_market_end - f_market_beg) > (market*switch2)*f_market_beg :
                         df_momentum[s_sym].ix[ldt_timestamps[i]] = 1
                         count = count + 1
-#                        print count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
+#                        p33rint count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
     return df_momentum, count
 
 def find_momentum_2(df_prices, trigger, market, switch, switch2, i_lookback):
@@ -204,7 +223,7 @@ def find_momentum_2(df_prices, trigger, market, switch, switch2, i_lookback):
                     if (f_symprice_end - f_symprice_beg) < -(trigger*switch)*f_symprice_beg and (f_market_end - f_market_beg) > (market*switch2)*f_market_beg :
                         df_momentum[s_sym].ix[ldt_timestamps[i]] = 1
                         count = count + 1
-#                        print count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
+#                        pNNrint count, i, w, f_symprice_end, f_symprice_beg, trigger*switch, f_symprice_beg
     return df_momentum, count
 
 def save_momentum(df_momentum, s_out_file_path):
@@ -258,12 +277,12 @@ def sellnbuy(df_events_up, df_events_down, i_num, delta_t):
                 l_buy_order,l_sell_order = buyandhold_order(ldt_dates, t, delta_t, s_symbol, i_num)
                 ls_orders.append(l_buy_order)
                 ls_orders.append(l_sell_order)
-                print l_buy_order, l_sell_order
+#               print l_buy_order, l_sell_order
             if df_events_down.ix[ldt_dates[t], s_symbol] == 1:
 	        l_sell_order,l_buy_order = sellandhold_order(ldt_dates, t, delta_t, s_symbol, i_num)
       	        ls_orders.append(l_sell_order)
                 ls_orders.append(l_buy_order) 
-                print l_sell_order, l_buy_order
+#               print l_sell_order, l_buy_order
     df_orders = pd.DataFrame(data=ls_orders, columns=["date", "sym", "type", "num"])
     # It is not possible to set "date" as index due duplicate keys
     df_orders = df_orders.sort(["date", "sym", "type"], ascending=[1, 1, 1])
@@ -280,8 +299,8 @@ def save_orders(df_orders, s_out_file_path):
 if __name__ == '__main__':
 #    print "start bollinger_events.py"
 
-    s_list_index = "fut_w" 
-    s_index = "IXIC"
+    s_list_index = "ase_w" 
+    s_index = "FTSE.AT"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -295,8 +314,9 @@ if __name__ == '__main__':
     cap_num = "1000"
     s_num = "100"
     s_start = "2012-09-01"
-    s_end = "2015-09-01" 
-
+    s_end = "2015-11-03" 
+    s_sharpe_up_out_file_path = "q4_sharpe_events_up" + ".csv"
+    s_sharpe_down_out_file_path = "q4_sharpe_events_down" + ".csv"
     s_sharpe_out_file_path = "q4_sharpe_events" + ".csv"
     s_sharpe_file_path = "q4_sharpe" + ".csv"
     s_momentum_file_path = "q4_momentum" + ".csv"
@@ -323,7 +343,7 @@ if __name__ == '__main__':
     d_data = get_data(dt_start, dt_end, ls_symbols)
 #   print ls_symbols[-1]    
     d_data['close'].to_csv("data.csv")
-    print len(ls_symbols), switch, float((quantile/10)),len(ls_symbols)*switch*(quantile/10)        
+#   print len(ls_symbols), switch, float((quantile/10)),len(ls_symbols)*switch*(quantile/10)        
     df_bollingers = get_bollingers(d_data["close"], i_lookback)
     save_bollingers(df_bollingers, s_bollingers_file_path)
     if (switch==1):
@@ -385,8 +405,8 @@ if __name__ == '__main__':
     #   print "sharpe rank"
         df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
         save_sharpe(df_sharpe, s_sharpe_file_path)
-        df_sharpe_events_up, count_up = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback)
-        df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback)
+        df_sharpe_events_up, count_up = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+        df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
     # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
     #print sharpe["ALPHA.AT"]
@@ -394,17 +414,36 @@ if __name__ == '__main__':
     #   print s_symbol    
     #   print sharpe[s_symbol]
     #   print sharpe[s_symbol].mean() 
+        df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
+        df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
         print count_up+count_down, "sharpe_rank_long_short"
 
     if (style==-3):
+    #   strategy buys assets that break up or down their sharpe rank and holds them for delta_t 
+        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events, count = find_sharpe_rank_symmetric(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean()
+        df_sharpe_events.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
+        df_orders = generate_orders(df_sharpe_events, i_num, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count, "sharpe_rank_classic_buy_and_sell_symmetric"
+
+    if (style==-4):
     #   print "sharpe rank"
     #   strategy holds sharpe winners only
         df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
         save_sharpe(df_sharpe, s_sharpe_file_path)
-        df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback)
-        df_sharpe_events_down =[]
+        df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
+        df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe) 
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
     # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
     #print sharpe["ALPHA.AT"]

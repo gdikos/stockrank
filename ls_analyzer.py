@@ -72,8 +72,14 @@ if __name__ == '__main__':
     market=sys.argv[4] 
     switch = sys.argv[5]
     switch2=sys.argv[6]
+    style=sys.argv[7]
+    sharpe_lookback=sys.argv[8]
+    quantile=sys.argv[9]
+    counter=sys.argv[10]
+
+
     s_file_path = "q4_values.csv"
-    ls_symbols =["IXIC"] 
+    ls_symbols =["FTSE.AT"] 
     df_values_list = get_values_list(s_file_path)
     df_values = get_values(df_values_list)
     df_prices = get_prices(list(df_values.index), ls_symbols)
@@ -93,13 +99,13 @@ if __name__ == '__main__':
     # print
     df_result=get_performance_indicators(df_data)
     # print df_result
-    score= df_result.ix["sharpe_ratio","val"]-df_result.ix["sharpe_ratio","IXIC"]
+    score= df_result.ix["sharpe_ratio","val"]-df_result.ix["sharpe_ratio","FTSE.AT"]
 #  
-    delta= df_result.ix["total_ret","val"]-df_result.ix["total_ret","IXIC"]
+    delta= df_result.ix["total_ret","val"]-df_result.ix["total_ret","FTSE.AT"]
 
 #   if (score >0):
 #        print "we have a winner:"
-    print lookback, holding, trigger, market, switch,switch2,score,delta
+    print lookback, holding, trigger, market, switch,switch2,style,sharpe_lookback,quantile,counter,score,delta
 #    else:
 #       print "this is a looser"
     # print df_result.ix["sharpe_ratio","val"]-df_result.ix["sharpe_ratio","FTSE.AT"]   
