@@ -2,522 +2,522 @@ counter is 1
 counter is 2
 counter is 3
 counter is 4
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 5
 counter is 6
 counter is 7
 counter is 8
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 9
 counter is 10
 counter is 11
 counter is 12
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 13
 counter is 14
 counter is 15
 counter is 16
-783 sharpe_rank_hold_winners
+793 sharpe_rank_hold_winners
 counter is 17
 counter is 18
 counter is 19
 counter is 20
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 21
 counter is 22
 counter is 23
 counter is 24
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 25
 counter is 26
 counter is 27
 counter is 28
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 29
 counter is 30
 counter is 31
 counter is 32
-783 sharpe_rank_hold_winners
+793 sharpe_rank_hold_winners
 counter is 33
 counter is 34
 counter is 35
 counter is 36
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 37
 counter is 38
 counter is 39
 counter is 40
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 41
 counter is 42
 counter is 43
 counter is 44
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 45
 counter is 46
 counter is 47
 counter is 48
-783 sharpe_rank_hold_winners
+793 sharpe_rank_hold_winners
 counter is 49
 counter is 50
 counter is 51
 counter is 52
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 53
 counter is 54
 counter is 55
 counter is 56
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 57
 counter is 58
 counter is 59
 counter is 60
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 61
 counter is 62
 counter is 63
 counter is 64
-783 sharpe_rank_hold_winners
+793 sharpe_rank_hold_winners
 counter is 65
 counter is 66
 counter is 67
 counter is 68
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 69
 counter is 70
 counter is 71
 counter is 72
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 73
 counter is 74
 counter is 75
 counter is 76
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 77
 counter is 78
 counter is 79
 counter is 80
-783 sharpe_rank_hold_winners
+793 sharpe_rank_hold_winners
 counter is 81
 counter is 82
 counter is 83
 counter is 84
-763 sharpe_rank_hold_winners
+773 sharpe_rank_hold_winners
 counter is 85
 counter is 86
 counter is 87
 counter is 88
-703 sharpe_rank_hold_winners
+713 sharpe_rank_hold_winners
 counter is 89
 counter is 90
 counter is 91
 counter is 92
-493 sharpe_rank_hold_winners
+503 sharpe_rank_hold_winners
 counter is 93
 counter is 94
 counter is 95
 counter is 96
-2449 sharpe_rank_hold_winners
+2882 sharpe_rank_hold_winners
 counter is 97
-622 sharpe_rank_hold_winners
+964 sharpe_rank_hold_winners
 counter is 98
-243 sharpe_rank_hold_winners
+220 sharpe_rank_hold_winners
 counter is 99
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 100
-2388 sharpe_rank_hold_winners
+2808 sharpe_rank_hold_winners
 counter is 101
-610 sharpe_rank_hold_winners
+946 sharpe_rank_hold_winners
 counter is 102
-240 sharpe_rank_hold_winners
+217 sharpe_rank_hold_winners
 counter is 103
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 104
-2206 sharpe_rank_hold_winners
+2598 sharpe_rank_hold_winners
 counter is 105
-559 sharpe_rank_hold_winners
+870 sharpe_rank_hold_winners
 counter is 106
-225 sharpe_rank_hold_winners
+207 sharpe_rank_hold_winners
 counter is 107
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 108
-1546 sharpe_rank_hold_winners
+1832 sharpe_rank_hold_winners
 counter is 109
-418 sharpe_rank_hold_winners
+636 sharpe_rank_hold_winners
 counter is 110
-180 sharpe_rank_hold_winners
+161 sharpe_rank_hold_winners
 counter is 111
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 112
-2487 sharpe_rank_hold_winners
+2907 sharpe_rank_hold_winners
 counter is 113
-589 sharpe_rank_hold_winners
+930 sharpe_rank_hold_winners
 counter is 114
-245 sharpe_rank_hold_winners
+210 sharpe_rank_hold_winners
 counter is 115
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 116
-2425 sharpe_rank_hold_winners
+2836 sharpe_rank_hold_winners
 counter is 117
-578 sharpe_rank_hold_winners
+909 sharpe_rank_hold_winners
 counter is 118
-243 sharpe_rank_hold_winners
+209 sharpe_rank_hold_winners
 counter is 119
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 120
-2237 sharpe_rank_hold_winners
+2614 sharpe_rank_hold_winners
 counter is 121
-536 sharpe_rank_hold_winners
+840 sharpe_rank_hold_winners
 counter is 122
-229 sharpe_rank_hold_winners
+197 sharpe_rank_hold_winners
 counter is 123
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 124
-1574 sharpe_rank_hold_winners
+1844 sharpe_rank_hold_winners
 counter is 125
-398 sharpe_rank_hold_winners
+610 sharpe_rank_hold_winners
 counter is 126
-188 sharpe_rank_hold_winners
+152 sharpe_rank_hold_winners
 counter is 127
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 128
-2449 sharpe_rank_hold_winners
+2882 sharpe_rank_hold_winners
 counter is 129
-622 sharpe_rank_hold_winners
+964 sharpe_rank_hold_winners
 counter is 130
-243 sharpe_rank_hold_winners
+220 sharpe_rank_hold_winners
 counter is 131
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 132
-2388 sharpe_rank_hold_winners
+2808 sharpe_rank_hold_winners
 counter is 133
-610 sharpe_rank_hold_winners
+946 sharpe_rank_hold_winners
 counter is 134
-240 sharpe_rank_hold_winners
+217 sharpe_rank_hold_winners
 counter is 135
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 136
-2206 sharpe_rank_hold_winners
+2598 sharpe_rank_hold_winners
 counter is 137
-559 sharpe_rank_hold_winners
+870 sharpe_rank_hold_winners
 counter is 138
-225 sharpe_rank_hold_winners
+207 sharpe_rank_hold_winners
 counter is 139
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 140
-1546 sharpe_rank_hold_winners
+1832 sharpe_rank_hold_winners
 counter is 141
-418 sharpe_rank_hold_winners
+636 sharpe_rank_hold_winners
 counter is 142
-180 sharpe_rank_hold_winners
+161 sharpe_rank_hold_winners
 counter is 143
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 144
-2487 sharpe_rank_hold_winners
+2907 sharpe_rank_hold_winners
 counter is 145
-589 sharpe_rank_hold_winners
+930 sharpe_rank_hold_winners
 counter is 146
-245 sharpe_rank_hold_winners
+210 sharpe_rank_hold_winners
 counter is 147
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 148
-2425 sharpe_rank_hold_winners
+2836 sharpe_rank_hold_winners
 counter is 149
-578 sharpe_rank_hold_winners
+909 sharpe_rank_hold_winners
 counter is 150
-243 sharpe_rank_hold_winners
+209 sharpe_rank_hold_winners
 counter is 151
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 152
-2237 sharpe_rank_hold_winners
+2614 sharpe_rank_hold_winners
 counter is 153
-536 sharpe_rank_hold_winners
+840 sharpe_rank_hold_winners
 counter is 154
-229 sharpe_rank_hold_winners
+197 sharpe_rank_hold_winners
 counter is 155
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 156
-1574 sharpe_rank_hold_winners
+1844 sharpe_rank_hold_winners
 counter is 157
-398 sharpe_rank_hold_winners
-counter is 158
-188 sharpe_rank_hold_winners
-counter is 159
-52 sharpe_rank_hold_winners
-counter is 160
-2449 sharpe_rank_hold_winners
-counter is 161
-622 sharpe_rank_hold_winners
-counter is 162
-243 sharpe_rank_hold_winners
-counter is 163
-40 sharpe_rank_hold_winners
-counter is 164
-2388 sharpe_rank_hold_winners
-counter is 165
 610 sharpe_rank_hold_winners
+counter is 158
+152 sharpe_rank_hold_winners
+counter is 159
+36 sharpe_rank_hold_winners
+counter is 160
+2882 sharpe_rank_hold_winners
+counter is 161
+964 sharpe_rank_hold_winners
+counter is 162
+220 sharpe_rank_hold_winners
+counter is 163
+35 sharpe_rank_hold_winners
+counter is 164
+2808 sharpe_rank_hold_winners
+counter is 165
+946 sharpe_rank_hold_winners
 counter is 166
-240 sharpe_rank_hold_winners
+217 sharpe_rank_hold_winners
 counter is 167
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 168
-2206 sharpe_rank_hold_winners
+2598 sharpe_rank_hold_winners
 counter is 169
-559 sharpe_rank_hold_winners
+870 sharpe_rank_hold_winners
 counter is 170
-225 sharpe_rank_hold_winners
+207 sharpe_rank_hold_winners
 counter is 171
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 172
-1546 sharpe_rank_hold_winners
+1832 sharpe_rank_hold_winners
 counter is 173
-418 sharpe_rank_hold_winners
+636 sharpe_rank_hold_winners
 counter is 174
-180 sharpe_rank_hold_winners
+161 sharpe_rank_hold_winners
 counter is 175
-40 sharpe_rank_hold_winners
+35 sharpe_rank_hold_winners
 counter is 176
-2487 sharpe_rank_hold_winners
+2907 sharpe_rank_hold_winners
 counter is 177
-589 sharpe_rank_hold_winners
+930 sharpe_rank_hold_winners
 counter is 178
-245 sharpe_rank_hold_winners
+210 sharpe_rank_hold_winners
 counter is 179
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 180
-2425 sharpe_rank_hold_winners
+2836 sharpe_rank_hold_winners
 counter is 181
-578 sharpe_rank_hold_winners
+909 sharpe_rank_hold_winners
 counter is 182
-243 sharpe_rank_hold_winners
+209 sharpe_rank_hold_winners
 counter is 183
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 184
-2237 sharpe_rank_hold_winners
+2614 sharpe_rank_hold_winners
 counter is 185
-536 sharpe_rank_hold_winners
+840 sharpe_rank_hold_winners
 counter is 186
-229 sharpe_rank_hold_winners
+197 sharpe_rank_hold_winners
 counter is 187
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 188
-1574 sharpe_rank_hold_winners
+1844 sharpe_rank_hold_winners
 counter is 189
-398 sharpe_rank_hold_winners
+610 sharpe_rank_hold_winners
 counter is 190
-188 sharpe_rank_hold_winners
+152 sharpe_rank_hold_winners
 counter is 191
-52 sharpe_rank_hold_winners
+36 sharpe_rank_hold_winners
 counter is 192
-2558 sharpe_rank_hold_winners
+3015 sharpe_rank_hold_winners
 counter is 193
-716 sharpe_rank_hold_winners
+1039 sharpe_rank_hold_winners
 counter is 194
-334 sharpe_rank_hold_winners
+291 sharpe_rank_hold_winners
 counter is 195
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 196
-2496 sharpe_rank_hold_winners
+2936 sharpe_rank_hold_winners
 counter is 197
-702 sharpe_rank_hold_winners
+1011 sharpe_rank_hold_winners
 counter is 198
-329 sharpe_rank_hold_winners
+289 sharpe_rank_hold_winners
 counter is 199
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 200
-2299 sharpe_rank_hold_winners
+2715 sharpe_rank_hold_winners
 counter is 201
-663 sharpe_rank_hold_winners
+953 sharpe_rank_hold_winners
 counter is 202
-318 sharpe_rank_hold_winners
+283 sharpe_rank_hold_winners
 counter is 203
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 204
-1631 sharpe_rank_hold_winners
+1916 sharpe_rank_hold_winners
 counter is 205
-496 sharpe_rank_hold_winners
+688 sharpe_rank_hold_winners
 counter is 206
-249 sharpe_rank_hold_winners
+219 sharpe_rank_hold_winners
 counter is 207
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 208
-2604 sharpe_rank_hold_winners
+2992 sharpe_rank_hold_winners
 counter is 209
-675 sharpe_rank_hold_winners
+1038 sharpe_rank_hold_winners
 counter is 210
-266 sharpe_rank_hold_winners
+232 sharpe_rank_hold_winners
 counter is 211
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 212
-2539 sharpe_rank_hold_winners
+2912 sharpe_rank_hold_winners
 counter is 213
-663 sharpe_rank_hold_winners
+1017 sharpe_rank_hold_winners
 counter is 214
-262 sharpe_rank_hold_winners
+229 sharpe_rank_hold_winners
 counter is 215
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 216
-2345 sharpe_rank_hold_winners
+2690 sharpe_rank_hold_winners
 counter is 217
-616 sharpe_rank_hold_winners
+942 sharpe_rank_hold_winners
 counter is 218
-251 sharpe_rank_hold_winners
+223 sharpe_rank_hold_winners
 counter is 219
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 220
-1671 sharpe_rank_hold_winners
+1901 sharpe_rank_hold_winners
 counter is 221
-450 sharpe_rank_hold_winners
+659 sharpe_rank_hold_winners
 counter is 222
-191 sharpe_rank_hold_winners
+173 sharpe_rank_hold_winners
 counter is 223
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 224
-2558 sharpe_rank_hold_winners
+3015 sharpe_rank_hold_winners
 counter is 225
-716 sharpe_rank_hold_winners
+1039 sharpe_rank_hold_winners
 counter is 226
-334 sharpe_rank_hold_winners
+291 sharpe_rank_hold_winners
 counter is 227
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 228
-2496 sharpe_rank_hold_winners
+2936 sharpe_rank_hold_winners
 counter is 229
-702 sharpe_rank_hold_winners
+1011 sharpe_rank_hold_winners
 counter is 230
-329 sharpe_rank_hold_winners
+289 sharpe_rank_hold_winners
 counter is 231
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 232
-2299 sharpe_rank_hold_winners
+2715 sharpe_rank_hold_winners
 counter is 233
-663 sharpe_rank_hold_winners
+953 sharpe_rank_hold_winners
 counter is 234
-318 sharpe_rank_hold_winners
+283 sharpe_rank_hold_winners
 counter is 235
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 236
-1631 sharpe_rank_hold_winners
+1916 sharpe_rank_hold_winners
 counter is 237
-496 sharpe_rank_hold_winners
+688 sharpe_rank_hold_winners
 counter is 238
-249 sharpe_rank_hold_winners
+219 sharpe_rank_hold_winners
 counter is 239
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 240
-2604 sharpe_rank_hold_winners
+2992 sharpe_rank_hold_winners
 counter is 241
-675 sharpe_rank_hold_winners
+1038 sharpe_rank_hold_winners
 counter is 242
-266 sharpe_rank_hold_winners
+232 sharpe_rank_hold_winners
 counter is 243
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 244
-2539 sharpe_rank_hold_winners
+2912 sharpe_rank_hold_winners
 counter is 245
-663 sharpe_rank_hold_winners
+1017 sharpe_rank_hold_winners
 counter is 246
-262 sharpe_rank_hold_winners
+229 sharpe_rank_hold_winners
 counter is 247
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 248
-2345 sharpe_rank_hold_winners
+2690 sharpe_rank_hold_winners
 counter is 249
-616 sharpe_rank_hold_winners
+942 sharpe_rank_hold_winners
 counter is 250
-251 sharpe_rank_hold_winners
+223 sharpe_rank_hold_winners
 counter is 251
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 252
-1671 sharpe_rank_hold_winners
+1901 sharpe_rank_hold_winners
 counter is 253
-450 sharpe_rank_hold_winners
+659 sharpe_rank_hold_winners
 counter is 254
-191 sharpe_rank_hold_winners
+173 sharpe_rank_hold_winners
 counter is 255
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 256
-2558 sharpe_rank_hold_winners
+3015 sharpe_rank_hold_winners
 counter is 257
-716 sharpe_rank_hold_winners
+1039 sharpe_rank_hold_winners
 counter is 258
-334 sharpe_rank_hold_winners
+291 sharpe_rank_hold_winners
 counter is 259
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 260
-2496 sharpe_rank_hold_winners
+2936 sharpe_rank_hold_winners
 counter is 261
-702 sharpe_rank_hold_winners
+1011 sharpe_rank_hold_winners
 counter is 262
-329 sharpe_rank_hold_winners
+289 sharpe_rank_hold_winners
 counter is 263
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 264
-2299 sharpe_rank_hold_winners
+2715 sharpe_rank_hold_winners
 counter is 265
-663 sharpe_rank_hold_winners
+953 sharpe_rank_hold_winners
 counter is 266
-318 sharpe_rank_hold_winners
+283 sharpe_rank_hold_winners
 counter is 267
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 268
-1631 sharpe_rank_hold_winners
+1916 sharpe_rank_hold_winners
 counter is 269
-496 sharpe_rank_hold_winners
+688 sharpe_rank_hold_winners
 counter is 270
-249 sharpe_rank_hold_winners
+219 sharpe_rank_hold_winners
 counter is 271
-66 sharpe_rank_hold_winners
+57 sharpe_rank_hold_winners
 counter is 272
-2604 sharpe_rank_hold_winners
+2992 sharpe_rank_hold_winners
 counter is 273
-675 sharpe_rank_hold_winners
+1038 sharpe_rank_hold_winners
 counter is 274
-266 sharpe_rank_hold_winners
+232 sharpe_rank_hold_winners
 counter is 275
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 276
-2539 sharpe_rank_hold_winners
+2912 sharpe_rank_hold_winners
 counter is 277
-663 sharpe_rank_hold_winners
+1017 sharpe_rank_hold_winners
 counter is 278
-262 sharpe_rank_hold_winners
+229 sharpe_rank_hold_winners
 counter is 279
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 280
-2345 sharpe_rank_hold_winners
+2690 sharpe_rank_hold_winners
 counter is 281
-616 sharpe_rank_hold_winners
+942 sharpe_rank_hold_winners
 counter is 282
-251 sharpe_rank_hold_winners
+223 sharpe_rank_hold_winners
 counter is 283
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 284
-1671 sharpe_rank_hold_winners
+1901 sharpe_rank_hold_winners
 counter is 285
-450 sharpe_rank_hold_winners
+659 sharpe_rank_hold_winners
 counter is 286
-191 sharpe_rank_hold_winners
+173 sharpe_rank_hold_winners
 counter is 287
-48 sharpe_rank_hold_winners
+47 sharpe_rank_hold_winners
 counter is 288
-1187
-1187 sharpe_rank_classic_buy_and_sell_symmetric
+1369
+1369 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 289
-35
-35 sharpe_rank_classic_buy_and_sell_symmetric
+65
+65 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 290
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 291
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 292
-1015
-1015 sharpe_rank_classic_buy_and_sell_symmetric
+1093
+1093 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 293
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+11
+11 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 294
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -525,11 +525,11 @@ counter is 295
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 296
-808
-808 sharpe_rank_classic_buy_and_sell_symmetric
+855
+855 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 297
-1
-1 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 298
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -537,8 +537,8 @@ counter is 299
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 300
-500
-500 sharpe_rank_classic_buy_and_sell_symmetric
+537
+537 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 301
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -549,30 +549,30 @@ counter is 303
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 304
-1199
-1199 sharpe_rank_classic_buy_and_sell_symmetric
+1367
+1367 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 305
-30
-30 sharpe_rank_classic_buy_and_sell_symmetric
+75
+75 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 306
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 307
 0
 counter is 308
-1011
-1011 sharpe_rank_classic_buy_and_sell_symmetric
+1068
+1068 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 309
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 310
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 311
 0
 counter is 312
-820
-820 sharpe_rank_classic_buy_and_sell_symmetric
+863
+863 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 313
 0
 counter is 314
@@ -580,8 +580,8 @@ counter is 314
 counter is 315
 0
 counter is 316
-502
-502 sharpe_rank_classic_buy_and_sell_symmetric
+530
+530 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 317
 0
 counter is 318
@@ -589,23 +589,23 @@ counter is 318
 counter is 319
 0
 counter is 320
-1187
-1187 sharpe_rank_classic_buy_and_sell_symmetric
+1369
+1369 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 321
-35
-35 sharpe_rank_classic_buy_and_sell_symmetric
+65
+65 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 322
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 323
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 324
-1015
-1015 sharpe_rank_classic_buy_and_sell_symmetric
+1093
+1093 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 325
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+11
+11 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 326
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -613,11 +613,11 @@ counter is 327
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 328
-808
-808 sharpe_rank_classic_buy_and_sell_symmetric
+855
+855 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 329
-1
-1 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 330
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -625,8 +625,8 @@ counter is 331
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 332
-500
-500 sharpe_rank_classic_buy_and_sell_symmetric
+537
+537 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 333
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -637,30 +637,30 @@ counter is 335
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 336
-1199
-1199 sharpe_rank_classic_buy_and_sell_symmetric
+1367
+1367 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 337
-30
-30 sharpe_rank_classic_buy_and_sell_symmetric
+75
+75 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 338
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 339
 0
 counter is 340
-1011
-1011 sharpe_rank_classic_buy_and_sell_symmetric
+1068
+1068 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 341
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 342
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 343
 0
 counter is 344
-820
-820 sharpe_rank_classic_buy_and_sell_symmetric
+863
+863 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 345
 0
 counter is 346
@@ -668,8 +668,8 @@ counter is 346
 counter is 347
 0
 counter is 348
-502
-502 sharpe_rank_classic_buy_and_sell_symmetric
+530
+530 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 349
 0
 counter is 350
@@ -677,23 +677,23 @@ counter is 350
 counter is 351
 0
 counter is 352
-1187
-1187 sharpe_rank_classic_buy_and_sell_symmetric
+1369
+1369 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 353
-35
-35 sharpe_rank_classic_buy_and_sell_symmetric
+65
+65 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 354
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 355
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 356
-1015
-1015 sharpe_rank_classic_buy_and_sell_symmetric
+1093
+1093 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 357
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+11
+11 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 358
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -701,11 +701,11 @@ counter is 359
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 360
-808
-808 sharpe_rank_classic_buy_and_sell_symmetric
+855
+855 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 361
-1
-1 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 362
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -713,8 +713,8 @@ counter is 363
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 364
-500
-500 sharpe_rank_classic_buy_and_sell_symmetric
+537
+537 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 365
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
@@ -725,30 +725,30 @@ counter is 367
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 368
-1199
-1199 sharpe_rank_classic_buy_and_sell_symmetric
+1367
+1367 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 369
-30
-30 sharpe_rank_classic_buy_and_sell_symmetric
+75
+75 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 370
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 371
 0
 counter is 372
-1011
-1011 sharpe_rank_classic_buy_and_sell_symmetric
+1068
+1068 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 373
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 374
 1
 1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 375
 0
 counter is 376
-820
-820 sharpe_rank_classic_buy_and_sell_symmetric
+863
+863 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 377
 0
 counter is 378
@@ -756,8 +756,8 @@ counter is 378
 counter is 379
 0
 counter is 380
-502
-502 sharpe_rank_classic_buy_and_sell_symmetric
+530
+530 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 381
 0
 counter is 382
@@ -765,35 +765,35 @@ counter is 382
 counter is 383
 0
 counter is 384
-1435
-1435 sharpe_rank_classic_buy_and_sell_symmetric
+1654
+1654 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 385
-96
-96 sharpe_rank_classic_buy_and_sell_symmetric
+162
+162 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 386
 16
 16 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 387
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+3
+3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 388
-1152
-1152 sharpe_rank_classic_buy_and_sell_symmetric
+1306
+1306 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 389
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+44
+44 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 390
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 391
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 392
-912
-912 sharpe_rank_classic_buy_and_sell_symmetric
+974
+974 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 393
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 394
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -801,8 +801,8 @@ counter is 395
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 396
-508
-508 sharpe_rank_classic_buy_and_sell_symmetric
+551
+551 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 397
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -813,40 +813,40 @@ counter is 399
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 400
-1450
-1450 sharpe_rank_classic_buy_and_sell_symmetric
+1663
+1663 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 401
-85
-85 sharpe_rank_classic_buy_and_sell_symmetric
+160
+160 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 402
-12
-12 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 403
 0
 counter is 404
-1155
-1155 sharpe_rank_classic_buy_and_sell_symmetric
+1269
+1269 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 405
-28
-28 sharpe_rank_classic_buy_and_sell_symmetric
+42
+42 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 406
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 407
 0
 counter is 408
-900
-900 sharpe_rank_classic_buy_and_sell_symmetric
+973
+973 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 409
-2
-2 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 410
 0
 counter is 411
 0
 counter is 412
-504
-504 sharpe_rank_classic_buy_and_sell_symmetric
+553
+553 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 413
 0
 counter is 414
@@ -854,35 +854,35 @@ counter is 414
 counter is 415
 0
 counter is 416
-1435
-1435 sharpe_rank_classic_buy_and_sell_symmetric
+1654
+1654 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 417
-96
-96 sharpe_rank_classic_buy_and_sell_symmetric
+162
+162 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 418
 16
 16 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 419
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+3
+3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 420
-1152
-1152 sharpe_rank_classic_buy_and_sell_symmetric
+1306
+1306 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 421
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+44
+44 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 422
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 423
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 424
-912
-912 sharpe_rank_classic_buy_and_sell_symmetric
+974
+974 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 425
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 426
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -890,8 +890,8 @@ counter is 427
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 428
-508
-508 sharpe_rank_classic_buy_and_sell_symmetric
+551
+551 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 429
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -902,40 +902,40 @@ counter is 431
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 432
-1450
-1450 sharpe_rank_classic_buy_and_sell_symmetric
+1663
+1663 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 433
-85
-85 sharpe_rank_classic_buy_and_sell_symmetric
+160
+160 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 434
-12
-12 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 435
 0
 counter is 436
-1155
-1155 sharpe_rank_classic_buy_and_sell_symmetric
+1269
+1269 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 437
-28
-28 sharpe_rank_classic_buy_and_sell_symmetric
+42
+42 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 438
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 439
 0
 counter is 440
-900
-900 sharpe_rank_classic_buy_and_sell_symmetric
+973
+973 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 441
-2
-2 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 442
 0
 counter is 443
 0
 counter is 444
-504
-504 sharpe_rank_classic_buy_and_sell_symmetric
+553
+553 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 445
 0
 counter is 446
@@ -943,35 +943,35 @@ counter is 446
 counter is 447
 0
 counter is 448
-1435
-1435 sharpe_rank_classic_buy_and_sell_symmetric
+1654
+1654 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 449
-96
-96 sharpe_rank_classic_buy_and_sell_symmetric
+162
+162 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 450
 16
 16 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 451
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+3
+3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 452
-1152
-1152 sharpe_rank_classic_buy_and_sell_symmetric
+1306
+1306 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 453
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+44
+44 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 454
-4
-4 sharpe_rank_classic_buy_and_sell_symmetric
+2
+2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 455
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 456
-912
-912 sharpe_rank_classic_buy_and_sell_symmetric
+974
+974 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 457
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 458
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -979,8 +979,8 @@ counter is 459
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 460
-508
-508 sharpe_rank_classic_buy_and_sell_symmetric
+551
+551 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 461
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
@@ -991,40 +991,40 @@ counter is 463
 2
 2 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 464
-1450
-1450 sharpe_rank_classic_buy_and_sell_symmetric
+1663
+1663 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 465
-85
-85 sharpe_rank_classic_buy_and_sell_symmetric
+160
+160 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 466
-12
-12 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 467
 0
 counter is 468
-1155
-1155 sharpe_rank_classic_buy_and_sell_symmetric
+1269
+1269 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 469
-28
-28 sharpe_rank_classic_buy_and_sell_symmetric
+42
+42 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 470
-5
-5 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 471
 0
 counter is 472
-900
-900 sharpe_rank_classic_buy_and_sell_symmetric
+973
+973 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 473
-2
-2 sharpe_rank_classic_buy_and_sell_symmetric
+8
+8 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 474
 0
 counter is 475
 0
 counter is 476
-504
-504 sharpe_rank_classic_buy_and_sell_symmetric
+553
+553 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 477
 0
 counter is 478
@@ -1032,310 +1032,310 @@ counter is 478
 counter is 479
 0
 counter is 480
-2558
-2558 sharpe_rank_classic_buy_and_sell_symmetric
+3015
+3015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 481
-716
-716 sharpe_rank_classic_buy_and_sell_symmetric
+1039
+1039 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 482
-334
-334 sharpe_rank_classic_buy_and_sell_symmetric
+291
+291 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 483
-66
-66 sharpe_rank_classic_buy_and_sell_symmetric
+57
+57 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 484
-1747
-1747 sharpe_rank_classic_buy_and_sell_symmetric
+2015
+2015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 485
-167
-167 sharpe_rank_classic_buy_and_sell_symmetric
+290
+290 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 486
-43
-43 sharpe_rank_classic_buy_and_sell_symmetric
+22
+22 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 487
 5
 5 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 488
-1209
-1209 sharpe_rank_classic_buy_and_sell_symmetric
+1333
+1333 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 489
-50
-50 sharpe_rank_classic_buy_and_sell_symmetric
+101
+101 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 490
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+7
+7 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 491
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 492
-567
-567 sharpe_rank_classic_buy_and_sell_symmetric
+656
+656 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 493
-15
-15 sharpe_rank_classic_buy_and_sell_symmetric
+29
+29 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 494
-10
-10 sharpe_rank_classic_buy_and_sell_symmetric
+9
+9 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 495
-7
-7 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 496
-2604
-2604 sharpe_rank_classic_buy_and_sell_symmetric
+2992
+2992 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 497
-675
-675 sharpe_rank_classic_buy_and_sell_symmetric
+1038
+1038 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 498
-266
-266 sharpe_rank_classic_buy_and_sell_symmetric
+232
+232 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 499
-48
-48 sharpe_rank_classic_buy_and_sell_symmetric
+47
+47 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 500
-1728
-1728 sharpe_rank_classic_buy_and_sell_symmetric
+1980
+1980 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 501
-208
-208 sharpe_rank_classic_buy_and_sell_symmetric
+336
+336 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 502
-57
-57 sharpe_rank_classic_buy_and_sell_symmetric
+40
+40 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 503
 10
 10 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 504
-1205
-1205 sharpe_rank_classic_buy_and_sell_symmetric
+1339
+1339 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 505
-60
-60 sharpe_rank_classic_buy_and_sell_symmetric
+82
+82 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 506
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 507
 0
 counter is 508
-579
-579 sharpe_rank_classic_buy_and_sell_symmetric
+685
+685 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 509
-8
-8 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 510
 0
 counter is 511
 0
 counter is 512
-2558
-2558 sharpe_rank_classic_buy_and_sell_symmetric
+3015
+3015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 513
-716
-716 sharpe_rank_classic_buy_and_sell_symmetric
+1039
+1039 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 514
-334
-334 sharpe_rank_classic_buy_and_sell_symmetric
+291
+291 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 515
-66
-66 sharpe_rank_classic_buy_and_sell_symmetric
+57
+57 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 516
-1747
-1747 sharpe_rank_classic_buy_and_sell_symmetric
+2015
+2015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 517
-167
-167 sharpe_rank_classic_buy_and_sell_symmetric
+290
+290 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 518
-43
-43 sharpe_rank_classic_buy_and_sell_symmetric
+22
+22 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 519
 5
 5 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 520
-1209
-1209 sharpe_rank_classic_buy_and_sell_symmetric
+1333
+1333 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 521
-50
-50 sharpe_rank_classic_buy_and_sell_symmetric
+101
+101 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 522
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+7
+7 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 523
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 524
-567
-567 sharpe_rank_classic_buy_and_sell_symmetric
+656
+656 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 525
-15
-15 sharpe_rank_classic_buy_and_sell_symmetric
+29
+29 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 526
-10
-10 sharpe_rank_classic_buy_and_sell_symmetric
+9
+9 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 527
-7
-7 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 528
-2604
-2604 sharpe_rank_classic_buy_and_sell_symmetric
+2992
+2992 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 529
-675
-675 sharpe_rank_classic_buy_and_sell_symmetric
+1038
+1038 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 530
-266
-266 sharpe_rank_classic_buy_and_sell_symmetric
+232
+232 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 531
-48
-48 sharpe_rank_classic_buy_and_sell_symmetric
+47
+47 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 532
-1728
-1728 sharpe_rank_classic_buy_and_sell_symmetric
+1980
+1980 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 533
-208
-208 sharpe_rank_classic_buy_and_sell_symmetric
+336
+336 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 534
-57
-57 sharpe_rank_classic_buy_and_sell_symmetric
+40
+40 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 535
 10
 10 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 536
-1205
-1205 sharpe_rank_classic_buy_and_sell_symmetric
+1339
+1339 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 537
-60
-60 sharpe_rank_classic_buy_and_sell_symmetric
+82
+82 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 538
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 539
 0
 counter is 540
-579
-579 sharpe_rank_classic_buy_and_sell_symmetric
+685
+685 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 541
-8
-8 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 542
 0
 counter is 543
 0
 counter is 544
-2558
-2558 sharpe_rank_classic_buy_and_sell_symmetric
+3015
+3015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 545
-716
-716 sharpe_rank_classic_buy_and_sell_symmetric
+1039
+1039 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 546
-334
-334 sharpe_rank_classic_buy_and_sell_symmetric
+291
+291 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 547
-66
-66 sharpe_rank_classic_buy_and_sell_symmetric
+57
+57 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 548
-1747
-1747 sharpe_rank_classic_buy_and_sell_symmetric
+2015
+2015 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 549
-167
-167 sharpe_rank_classic_buy_and_sell_symmetric
+290
+290 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 550
-43
-43 sharpe_rank_classic_buy_and_sell_symmetric
+22
+22 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 551
 5
 5 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 552
-1209
-1209 sharpe_rank_classic_buy_and_sell_symmetric
+1333
+1333 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 553
-50
-50 sharpe_rank_classic_buy_and_sell_symmetric
+101
+101 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 554
-20
-20 sharpe_rank_classic_buy_and_sell_symmetric
+7
+7 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 555
 3
 3 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 556
-567
-567 sharpe_rank_classic_buy_and_sell_symmetric
+656
+656 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 557
-15
-15 sharpe_rank_classic_buy_and_sell_symmetric
+29
+29 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 558
-10
-10 sharpe_rank_classic_buy_and_sell_symmetric
+9
+9 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 559
-7
-7 sharpe_rank_classic_buy_and_sell_symmetric
+6
+6 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 560
-2604
-2604 sharpe_rank_classic_buy_and_sell_symmetric
+2992
+2992 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 561
-675
-675 sharpe_rank_classic_buy_and_sell_symmetric
+1038
+1038 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 562
-266
-266 sharpe_rank_classic_buy_and_sell_symmetric
+232
+232 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 563
-48
-48 sharpe_rank_classic_buy_and_sell_symmetric
+47
+47 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 564
-1728
-1728 sharpe_rank_classic_buy_and_sell_symmetric
+1980
+1980 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 565
-208
-208 sharpe_rank_classic_buy_and_sell_symmetric
+336
+336 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 566
-57
-57 sharpe_rank_classic_buy_and_sell_symmetric
+40
+40 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 567
 10
 10 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 568
-1205
-1205 sharpe_rank_classic_buy_and_sell_symmetric
+1339
+1339 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 569
-60
-60 sharpe_rank_classic_buy_and_sell_symmetric
+82
+82 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 570
-6
-6 sharpe_rank_classic_buy_and_sell_symmetric
+1
+1 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 571
 0
 counter is 572
-579
-579 sharpe_rank_classic_buy_and_sell_symmetric
+685
+685 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 573
-8
-8 sharpe_rank_classic_buy_and_sell_symmetric
+12
+12 sharpe_rank_classic_buy_and_sell_symmetric
 counter is 574
 0
 counter is 575
 0
 counter is 576
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 577
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 578
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 579
 2 sharpe_rank_long_short
 counter is 580
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 581
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 582
 2 sharpe_rank_long_short
 counter is 583
 1 sharpe_rank_long_short
 counter is 584
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 585
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 586
 1 sharpe_rank_long_short
 counter is 587
 1 sharpe_rank_long_short
 counter is 588
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 589
 1 sharpe_rank_long_short
 counter is 590
@@ -1343,31 +1343,31 @@ counter is 590
 counter is 591
 1 sharpe_rank_long_short
 counter is 592
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 593
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 594
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 595
 2 sharpe_rank_long_short
 counter is 596
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 597
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 598
 2 sharpe_rank_long_short
 counter is 599
 1 sharpe_rank_long_short
 counter is 600
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 601
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 602
 1 sharpe_rank_long_short
 counter is 603
 1 sharpe_rank_long_short
 counter is 604
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 605
 1 sharpe_rank_long_short
 counter is 606
@@ -1375,31 +1375,31 @@ counter is 606
 counter is 607
 1 sharpe_rank_long_short
 counter is 608
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 609
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 610
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 611
 2 sharpe_rank_long_short
 counter is 612
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 613
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 614
 2 sharpe_rank_long_short
 counter is 615
 1 sharpe_rank_long_short
 counter is 616
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 617
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 618
 1 sharpe_rank_long_short
 counter is 619
 1 sharpe_rank_long_short
 counter is 620
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 621
 1 sharpe_rank_long_short
 counter is 622
@@ -1407,31 +1407,31 @@ counter is 622
 counter is 623
 1 sharpe_rank_long_short
 counter is 624
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 625
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 626
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 627
 2 sharpe_rank_long_short
 counter is 628
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 629
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 630
 2 sharpe_rank_long_short
 counter is 631
 1 sharpe_rank_long_short
 counter is 632
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 633
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 634
 1 sharpe_rank_long_short
 counter is 635
 1 sharpe_rank_long_short
 counter is 636
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 637
 1 sharpe_rank_long_short
 counter is 638
@@ -1439,31 +1439,31 @@ counter is 638
 counter is 639
 1 sharpe_rank_long_short
 counter is 640
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 641
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 642
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 643
 2 sharpe_rank_long_short
 counter is 644
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 645
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 646
 2 sharpe_rank_long_short
 counter is 647
 1 sharpe_rank_long_short
 counter is 648
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 649
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 650
 1 sharpe_rank_long_short
 counter is 651
 1 sharpe_rank_long_short
 counter is 652
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 653
 1 sharpe_rank_long_short
 counter is 654
@@ -1471,31 +1471,31 @@ counter is 654
 counter is 655
 1 sharpe_rank_long_short
 counter is 656
-2386 sharpe_rank_long_short
+2736 sharpe_rank_long_short
 counter is 657
-65 sharpe_rank_long_short
+140 sharpe_rank_long_short
 counter is 658
-7 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 659
 2 sharpe_rank_long_short
 counter is 660
-2026 sharpe_rank_long_short
+2161 sharpe_rank_long_short
 counter is 661
-12 sharpe_rank_long_short
+23 sharpe_rank_long_short
 counter is 662
 2 sharpe_rank_long_short
 counter is 663
 1 sharpe_rank_long_short
 counter is 664
-1628 sharpe_rank_long_short
+1718 sharpe_rank_long_short
 counter is 665
-1 sharpe_rank_long_short
+2 sharpe_rank_long_short
 counter is 666
 1 sharpe_rank_long_short
 counter is 667
 1 sharpe_rank_long_short
 counter is 668
-1002 sharpe_rank_long_short
+1067 sharpe_rank_long_short
 counter is 669
 1 sharpe_rank_long_short
 counter is 670
@@ -1503,31 +1503,31 @@ counter is 670
 counter is 671
 1 sharpe_rank_long_short
 counter is 672
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 673
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 674
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 675
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 676
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 677
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 678
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 679
 2 sharpe_rank_long_short
 counter is 680
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 681
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 682
 2 sharpe_rank_long_short
 counter is 683
 2 sharpe_rank_long_short
 counter is 684
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 685
 2 sharpe_rank_long_short
 counter is 686
@@ -1535,31 +1535,31 @@ counter is 686
 counter is 687
 2 sharpe_rank_long_short
 counter is 688
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 689
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 690
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 691
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 692
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 693
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 694
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 695
 2 sharpe_rank_long_short
 counter is 696
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 697
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 698
 2 sharpe_rank_long_short
 counter is 699
 2 sharpe_rank_long_short
 counter is 700
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 701
 2 sharpe_rank_long_short
 counter is 702
@@ -1567,31 +1567,31 @@ counter is 702
 counter is 703
 2 sharpe_rank_long_short
 counter is 704
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 705
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 706
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 707
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 708
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 709
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 710
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 711
 2 sharpe_rank_long_short
 counter is 712
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 713
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 714
 2 sharpe_rank_long_short
 counter is 715
 2 sharpe_rank_long_short
 counter is 716
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 717
 2 sharpe_rank_long_short
 counter is 718
@@ -1599,31 +1599,31 @@ counter is 718
 counter is 719
 2 sharpe_rank_long_short
 counter is 720
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 721
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 722
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 723
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 724
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 725
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 726
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 727
 2 sharpe_rank_long_short
 counter is 728
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 729
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 730
 2 sharpe_rank_long_short
 counter is 731
 2 sharpe_rank_long_short
 counter is 732
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 733
 2 sharpe_rank_long_short
 counter is 734
@@ -1631,31 +1631,31 @@ counter is 734
 counter is 735
 2 sharpe_rank_long_short
 counter is 736
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 737
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 738
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 739
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 740
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 741
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 742
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 743
 2 sharpe_rank_long_short
 counter is 744
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 745
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 746
 2 sharpe_rank_long_short
 counter is 747
 2 sharpe_rank_long_short
 counter is 748
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 749
 2 sharpe_rank_long_short
 counter is 750
@@ -1663,31 +1663,31 @@ counter is 750
 counter is 751
 2 sharpe_rank_long_short
 counter is 752
-2885 sharpe_rank_long_short
+3317 sharpe_rank_long_short
 counter is 753
-181 sharpe_rank_long_short
+322 sharpe_rank_long_short
 counter is 754
-28 sharpe_rank_long_short
+24 sharpe_rank_long_short
 counter is 755
-4 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 756
-2307 sharpe_rank_long_short
+2575 sharpe_rank_long_short
 counter is 757
-48 sharpe_rank_long_short
+86 sharpe_rank_long_short
 counter is 758
-9 sharpe_rank_long_short
+3 sharpe_rank_long_short
 counter is 759
 2 sharpe_rank_long_short
 counter is 760
-1812 sharpe_rank_long_short
+1947 sharpe_rank_long_short
 counter is 761
-7 sharpe_rank_long_short
+16 sharpe_rank_long_short
 counter is 762
 2 sharpe_rank_long_short
 counter is 763
 2 sharpe_rank_long_short
 counter is 764
-1012 sharpe_rank_long_short
+1104 sharpe_rank_long_short
 counter is 765
 2 sharpe_rank_long_short
 counter is 766
@@ -1695,1058 +1695,1058 @@ counter is 766
 counter is 767
 2 sharpe_rank_long_short
 counter is 768
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 769
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 770
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 771
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 772
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 773
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 774
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 775
 15 sharpe_rank_long_short
 counter is 776
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 777
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 778
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 779
 3 sharpe_rank_long_short
 counter is 780
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 781
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 782
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 783
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 784
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 785
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 786
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 787
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 788
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 789
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 790
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 791
 15 sharpe_rank_long_short
 counter is 792
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 793
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 794
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 795
 3 sharpe_rank_long_short
 counter is 796
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 797
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 798
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 799
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 800
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 801
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 802
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 803
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 804
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 805
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 806
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 807
 15 sharpe_rank_long_short
 counter is 808
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 809
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 810
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 811
 3 sharpe_rank_long_short
 counter is 812
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 813
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 814
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 815
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 816
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 817
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 818
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 819
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 820
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 821
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 822
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 823
 15 sharpe_rank_long_short
 counter is 824
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 825
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 826
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 827
 3 sharpe_rank_long_short
 counter is 828
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 829
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 830
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 831
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 832
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 833
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 834
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 835
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 836
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 837
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 838
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 839
 15 sharpe_rank_long_short
 counter is 840
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 841
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 842
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 843
 3 sharpe_rank_long_short
 counter is 844
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 845
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 846
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 847
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 848
-5162 sharpe_rank_long_short
+6007 sharpe_rank_long_short
 counter is 849
-1391 sharpe_rank_long_short
+2077 sharpe_rank_long_short
 counter is 850
-600 sharpe_rank_long_short
+523 sharpe_rank_long_short
 counter is 851
-114 sharpe_rank_long_short
+104 sharpe_rank_long_short
 counter is 852
-3475 sharpe_rank_long_short
+3995 sharpe_rank_long_short
 counter is 853
-375 sharpe_rank_long_short
+626 sharpe_rank_long_short
 counter is 854
-100 sharpe_rank_long_short
+62 sharpe_rank_long_short
 counter is 855
 15 sharpe_rank_long_short
 counter is 856
-2414 sharpe_rank_long_short
+2672 sharpe_rank_long_short
 counter is 857
-110 sharpe_rank_long_short
+183 sharpe_rank_long_short
 counter is 858
-26 sharpe_rank_long_short
+8 sharpe_rank_long_short
 counter is 859
 3 sharpe_rank_long_short
 counter is 860
-1146 sharpe_rank_long_short
+1341 sharpe_rank_long_short
 counter is 861
-23 sharpe_rank_long_short
+41 sharpe_rank_long_short
 counter is 862
-10 sharpe_rank_long_short
+9 sharpe_rank_long_short
 counter is 863
-7 sharpe_rank_long_short
+6 sharpe_rank_long_short
 counter is 864
-1187
-1187 sharpe_rank_classic_buy_and_sell
+1369
+1369 sharpe_rank_classic_buy_and_sell
 counter is 865
-573
-573 sharpe_rank_classic_buy_and_sell
+728
+728 sharpe_rank_classic_buy_and_sell
 counter is 866
-398
-398 sharpe_rank_classic_buy_and_sell
+429
+429 sharpe_rank_classic_buy_and_sell
 counter is 867
-171
-171 sharpe_rank_classic_buy_and_sell
+167
+167 sharpe_rank_classic_buy_and_sell
 counter is 868
-1015
-1015 sharpe_rank_classic_buy_and_sell
+1093
+1093 sharpe_rank_classic_buy_and_sell
 counter is 869
-390
-390 sharpe_rank_classic_buy_and_sell
+506
+506 sharpe_rank_classic_buy_and_sell
 counter is 870
-268
-268 sharpe_rank_classic_buy_and_sell
+294
+294 sharpe_rank_classic_buy_and_sell
 counter is 871
-104
-104 sharpe_rank_classic_buy_and_sell
+131
+131 sharpe_rank_classic_buy_and_sell
 counter is 872
-808
-808 sharpe_rank_classic_buy_and_sell
+855
+855 sharpe_rank_classic_buy_and_sell
 counter is 873
-245
-245 sharpe_rank_classic_buy_and_sell
+304
+304 sharpe_rank_classic_buy_and_sell
 counter is 874
-167
-167 sharpe_rank_classic_buy_and_sell
+196
+196 sharpe_rank_classic_buy_and_sell
 counter is 875
-58
-58 sharpe_rank_classic_buy_and_sell
+60
+60 sharpe_rank_classic_buy_and_sell
 counter is 876
-500
-500 sharpe_rank_classic_buy_and_sell
+537
+537 sharpe_rank_classic_buy_and_sell
 counter is 877
-117
-117 sharpe_rank_classic_buy_and_sell
+136
+136 sharpe_rank_classic_buy_and_sell
 counter is 878
-89
-89 sharpe_rank_classic_buy_and_sell
+117
+117 sharpe_rank_classic_buy_and_sell
 counter is 879
-59
-59 sharpe_rank_classic_buy_and_sell
+55
+55 sharpe_rank_classic_buy_and_sell
 counter is 880
-1199
-1199 sharpe_rank_classic_buy_and_sell
+1367
+1367 sharpe_rank_classic_buy_and_sell
 counter is 881
-649
-649 sharpe_rank_classic_buy_and_sell
+833
+833 sharpe_rank_classic_buy_and_sell
 counter is 882
-499
-499 sharpe_rank_classic_buy_and_sell
+553
+553 sharpe_rank_classic_buy_and_sell
 counter is 883
-329
-329 sharpe_rank_classic_buy_and_sell
+331
+331 sharpe_rank_classic_buy_and_sell
 counter is 884
-1011
-1011 sharpe_rank_classic_buy_and_sell
+1068
+1068 sharpe_rank_classic_buy_and_sell
 counter is 885
-410
-410 sharpe_rank_classic_buy_and_sell
+518
+518 sharpe_rank_classic_buy_and_sell
 counter is 886
-342
-342 sharpe_rank_classic_buy_and_sell
+341
+341 sharpe_rank_classic_buy_and_sell
 counter is 887
-166
-166 sharpe_rank_classic_buy_and_sell
+212
+212 sharpe_rank_classic_buy_and_sell
 counter is 888
-820
-820 sharpe_rank_classic_buy_and_sell
+863
+863 sharpe_rank_classic_buy_and_sell
 counter is 889
-231
-231 sharpe_rank_classic_buy_and_sell
+312
+312 sharpe_rank_classic_buy_and_sell
 counter is 890
-156
-156 sharpe_rank_classic_buy_and_sell
+190
+190 sharpe_rank_classic_buy_and_sell
 counter is 891
-116
-116 sharpe_rank_classic_buy_and_sell
+134
+134 sharpe_rank_classic_buy_and_sell
 counter is 892
-502
-502 sharpe_rank_classic_buy_and_sell
+530
+530 sharpe_rank_classic_buy_and_sell
 counter is 893
-89
-89 sharpe_rank_classic_buy_and_sell
+86
+86 sharpe_rank_classic_buy_and_sell
 counter is 894
-94
-94 sharpe_rank_classic_buy_and_sell
+70
+70 sharpe_rank_classic_buy_and_sell
 counter is 895
-36
-36 sharpe_rank_classic_buy_and_sell
+53
+53 sharpe_rank_classic_buy_and_sell
 counter is 896
-1187
-1187 sharpe_rank_classic_buy_and_sell
+1369
+1369 sharpe_rank_classic_buy_and_sell
 counter is 897
-573
-573 sharpe_rank_classic_buy_and_sell
+728
+728 sharpe_rank_classic_buy_and_sell
 counter is 898
-398
-398 sharpe_rank_classic_buy_and_sell
+429
+429 sharpe_rank_classic_buy_and_sell
 counter is 899
-171
-171 sharpe_rank_classic_buy_and_sell
+167
+167 sharpe_rank_classic_buy_and_sell
 counter is 900
-1015
-1015 sharpe_rank_classic_buy_and_sell
+1093
+1093 sharpe_rank_classic_buy_and_sell
 counter is 901
-390
-390 sharpe_rank_classic_buy_and_sell
+506
+506 sharpe_rank_classic_buy_and_sell
 counter is 902
-268
-268 sharpe_rank_classic_buy_and_sell
+294
+294 sharpe_rank_classic_buy_and_sell
 counter is 903
-104
-104 sharpe_rank_classic_buy_and_sell
+131
+131 sharpe_rank_classic_buy_and_sell
 counter is 904
-808
-808 sharpe_rank_classic_buy_and_sell
+855
+855 sharpe_rank_classic_buy_and_sell
 counter is 905
-245
-245 sharpe_rank_classic_buy_and_sell
+304
+304 sharpe_rank_classic_buy_and_sell
 counter is 906
-167
-167 sharpe_rank_classic_buy_and_sell
+196
+196 sharpe_rank_classic_buy_and_sell
 counter is 907
-58
-58 sharpe_rank_classic_buy_and_sell
+60
+60 sharpe_rank_classic_buy_and_sell
 counter is 908
-500
-500 sharpe_rank_classic_buy_and_sell
+537
+537 sharpe_rank_classic_buy_and_sell
 counter is 909
+136
+136 sharpe_rank_classic_buy_and_sell
+counter is 910
 117
 117 sharpe_rank_classic_buy_and_sell
-counter is 910
-89
-89 sharpe_rank_classic_buy_and_sell
 counter is 911
-59
-59 sharpe_rank_classic_buy_and_sell
+55
+55 sharpe_rank_classic_buy_and_sell
 counter is 912
-1199
-1199 sharpe_rank_classic_buy_and_sell
+1367
+1367 sharpe_rank_classic_buy_and_sell
 counter is 913
-649
-649 sharpe_rank_classic_buy_and_sell
+833
+833 sharpe_rank_classic_buy_and_sell
 counter is 914
-499
-499 sharpe_rank_classic_buy_and_sell
+553
+553 sharpe_rank_classic_buy_and_sell
 counter is 915
-329
-329 sharpe_rank_classic_buy_and_sell
+331
+331 sharpe_rank_classic_buy_and_sell
 counter is 916
-1011
-1011 sharpe_rank_classic_buy_and_sell
+1068
+1068 sharpe_rank_classic_buy_and_sell
 counter is 917
-410
-410 sharpe_rank_classic_buy_and_sell
+518
+518 sharpe_rank_classic_buy_and_sell
 counter is 918
-342
-342 sharpe_rank_classic_buy_and_sell
+341
+341 sharpe_rank_classic_buy_and_sell
 counter is 919
-166
-166 sharpe_rank_classic_buy_and_sell
+212
+212 sharpe_rank_classic_buy_and_sell
 counter is 920
-820
-820 sharpe_rank_classic_buy_and_sell
+863
+863 sharpe_rank_classic_buy_and_sell
 counter is 921
-231
-231 sharpe_rank_classic_buy_and_sell
+312
+312 sharpe_rank_classic_buy_and_sell
 counter is 922
-156
-156 sharpe_rank_classic_buy_and_sell
+190
+190 sharpe_rank_classic_buy_and_sell
 counter is 923
-116
-116 sharpe_rank_classic_buy_and_sell
+134
+134 sharpe_rank_classic_buy_and_sell
 counter is 924
-502
-502 sharpe_rank_classic_buy_and_sell
+530
+530 sharpe_rank_classic_buy_and_sell
 counter is 925
-89
-89 sharpe_rank_classic_buy_and_sell
+86
+86 sharpe_rank_classic_buy_and_sell
 counter is 926
-94
-94 sharpe_rank_classic_buy_and_sell
+70
+70 sharpe_rank_classic_buy_and_sell
 counter is 927
-36
-36 sharpe_rank_classic_buy_and_sell
+53
+53 sharpe_rank_classic_buy_and_sell
 counter is 928
-1187
-1187 sharpe_rank_classic_buy_and_sell
+1369
+1369 sharpe_rank_classic_buy_and_sell
 counter is 929
-573
-573 sharpe_rank_classic_buy_and_sell
+728
+728 sharpe_rank_classic_buy_and_sell
 counter is 930
-398
-398 sharpe_rank_classic_buy_and_sell
+429
+429 sharpe_rank_classic_buy_and_sell
 counter is 931
-171
-171 sharpe_rank_classic_buy_and_sell
-counter is 932
-1015
-1015 sharpe_rank_classic_buy_and_sell
-counter is 933
-390
-390 sharpe_rank_classic_buy_and_sell
-counter is 934
-268
-268 sharpe_rank_classic_buy_and_sell
-counter is 935
-104
-104 sharpe_rank_classic_buy_and_sell
-counter is 936
-808
-808 sharpe_rank_classic_buy_and_sell
-counter is 937
-245
-245 sharpe_rank_classic_buy_and_sell
-counter is 938
 167
 167 sharpe_rank_classic_buy_and_sell
+counter is 932
+1093
+1093 sharpe_rank_classic_buy_and_sell
+counter is 933
+506
+506 sharpe_rank_classic_buy_and_sell
+counter is 934
+294
+294 sharpe_rank_classic_buy_and_sell
+counter is 935
+131
+131 sharpe_rank_classic_buy_and_sell
+counter is 936
+855
+855 sharpe_rank_classic_buy_and_sell
+counter is 937
+304
+304 sharpe_rank_classic_buy_and_sell
+counter is 938
+196
+196 sharpe_rank_classic_buy_and_sell
 counter is 939
-58
-58 sharpe_rank_classic_buy_and_sell
+60
+60 sharpe_rank_classic_buy_and_sell
 counter is 940
-500
-500 sharpe_rank_classic_buy_and_sell
+537
+537 sharpe_rank_classic_buy_and_sell
 counter is 941
+136
+136 sharpe_rank_classic_buy_and_sell
+counter is 942
 117
 117 sharpe_rank_classic_buy_and_sell
-counter is 942
-89
-89 sharpe_rank_classic_buy_and_sell
 counter is 943
-59
-59 sharpe_rank_classic_buy_and_sell
+55
+55 sharpe_rank_classic_buy_and_sell
 counter is 944
-1199
-1199 sharpe_rank_classic_buy_and_sell
+1367
+1367 sharpe_rank_classic_buy_and_sell
 counter is 945
-649
-649 sharpe_rank_classic_buy_and_sell
+833
+833 sharpe_rank_classic_buy_and_sell
 counter is 946
-499
-499 sharpe_rank_classic_buy_and_sell
+553
+553 sharpe_rank_classic_buy_and_sell
 counter is 947
-329
-329 sharpe_rank_classic_buy_and_sell
+331
+331 sharpe_rank_classic_buy_and_sell
 counter is 948
-1011
-1011 sharpe_rank_classic_buy_and_sell
+1068
+1068 sharpe_rank_classic_buy_and_sell
 counter is 949
-410
-410 sharpe_rank_classic_buy_and_sell
+518
+518 sharpe_rank_classic_buy_and_sell
 counter is 950
-342
-342 sharpe_rank_classic_buy_and_sell
+341
+341 sharpe_rank_classic_buy_and_sell
 counter is 951
-166
-166 sharpe_rank_classic_buy_and_sell
+212
+212 sharpe_rank_classic_buy_and_sell
 counter is 952
-820
-820 sharpe_rank_classic_buy_and_sell
+863
+863 sharpe_rank_classic_buy_and_sell
 counter is 953
-231
-231 sharpe_rank_classic_buy_and_sell
+312
+312 sharpe_rank_classic_buy_and_sell
 counter is 954
-156
-156 sharpe_rank_classic_buy_and_sell
+190
+190 sharpe_rank_classic_buy_and_sell
 counter is 955
-116
-116 sharpe_rank_classic_buy_and_sell
+134
+134 sharpe_rank_classic_buy_and_sell
 counter is 956
-502
-502 sharpe_rank_classic_buy_and_sell
+530
+530 sharpe_rank_classic_buy_and_sell
 counter is 957
+86
+86 sharpe_rank_classic_buy_and_sell
+counter is 958
+70
+70 sharpe_rank_classic_buy_and_sell
+counter is 959
+53
+53 sharpe_rank_classic_buy_and_sell
+counter is 960
+1654
+1654 sharpe_rank_classic_buy_and_sell
+counter is 961
+1016
+1016 sharpe_rank_classic_buy_and_sell
+counter is 962
+584
+584 sharpe_rank_classic_buy_and_sell
+counter is 963
+221
+221 sharpe_rank_classic_buy_and_sell
+counter is 964
+1306
+1306 sharpe_rank_classic_buy_and_sell
+counter is 965
+703
+703 sharpe_rank_classic_buy_and_sell
+counter is 966
+418
+418 sharpe_rank_classic_buy_and_sell
+counter is 967
+169
+169 sharpe_rank_classic_buy_and_sell
+counter is 968
+974
+974 sharpe_rank_classic_buy_and_sell
+counter is 969
+420
+420 sharpe_rank_classic_buy_and_sell
+counter is 970
+271
+271 sharpe_rank_classic_buy_and_sell
+counter is 971
+83
+83 sharpe_rank_classic_buy_and_sell
+counter is 972
+551
+551 sharpe_rank_classic_buy_and_sell
+counter is 973
+161
+161 sharpe_rank_classic_buy_and_sell
+counter is 974
+158
+158 sharpe_rank_classic_buy_and_sell
+counter is 975
+83
+83 sharpe_rank_classic_buy_and_sell
+counter is 976
+1663
+1663 sharpe_rank_classic_buy_and_sell
+counter is 977
+1122
+1122 sharpe_rank_classic_buy_and_sell
+counter is 978
+767
+767 sharpe_rank_classic_buy_and_sell
+counter is 979
+451
+451 sharpe_rank_classic_buy_and_sell
+counter is 980
+1269
+1269 sharpe_rank_classic_buy_and_sell
+counter is 981
+705
+705 sharpe_rank_classic_buy_and_sell
+counter is 982
+468
+468 sharpe_rank_classic_buy_and_sell
+counter is 983
+303
+303 sharpe_rank_classic_buy_and_sell
+counter is 984
+973
+973 sharpe_rank_classic_buy_and_sell
+counter is 985
+433
+433 sharpe_rank_classic_buy_and_sell
+counter is 986
+254
+254 sharpe_rank_classic_buy_and_sell
+counter is 987
+182
+182 sharpe_rank_classic_buy_and_sell
+counter is 988
+553
+553 sharpe_rank_classic_buy_and_sell
+counter is 989
+131
+131 sharpe_rank_classic_buy_and_sell
+counter is 990
 89
 89 sharpe_rank_classic_buy_and_sell
-counter is 958
-94
-94 sharpe_rank_classic_buy_and_sell
-counter is 959
-36
-36 sharpe_rank_classic_buy_and_sell
-counter is 960
-1435
-1435 sharpe_rank_classic_buy_and_sell
-counter is 961
-771
-771 sharpe_rank_classic_buy_and_sell
-counter is 962
-541
-541 sharpe_rank_classic_buy_and_sell
-counter is 963
-230
-230 sharpe_rank_classic_buy_and_sell
-counter is 964
-1152
-1152 sharpe_rank_classic_buy_and_sell
-counter is 965
-541
-541 sharpe_rank_classic_buy_and_sell
-counter is 966
-358
-358 sharpe_rank_classic_buy_and_sell
-counter is 967
-146
-146 sharpe_rank_classic_buy_and_sell
-counter is 968
-912
-912 sharpe_rank_classic_buy_and_sell
-counter is 969
-335
-335 sharpe_rank_classic_buy_and_sell
-counter is 970
-226
-226 sharpe_rank_classic_buy_and_sell
-counter is 971
-79
-79 sharpe_rank_classic_buy_and_sell
-counter is 972
-508
-508 sharpe_rank_classic_buy_and_sell
-counter is 973
-143
-143 sharpe_rank_classic_buy_and_sell
-counter is 974
-129
-129 sharpe_rank_classic_buy_and_sell
-counter is 975
-82
-82 sharpe_rank_classic_buy_and_sell
-counter is 976
-1450
-1450 sharpe_rank_classic_buy_and_sell
-counter is 977
-870
-870 sharpe_rank_classic_buy_and_sell
-counter is 978
-694
-694 sharpe_rank_classic_buy_and_sell
-counter is 979
-446
-446 sharpe_rank_classic_buy_and_sell
-counter is 980
-1155
-1155 sharpe_rank_classic_buy_and_sell
-counter is 981
-569
-569 sharpe_rank_classic_buy_and_sell
-counter is 982
-465
-465 sharpe_rank_classic_buy_and_sell
-counter is 983
-244
-244 sharpe_rank_classic_buy_and_sell
-counter is 984
-900
-900 sharpe_rank_classic_buy_and_sell
-counter is 985
-322
-322 sharpe_rank_classic_buy_and_sell
-counter is 986
-226
-226 sharpe_rank_classic_buy_and_sell
-counter is 987
-158
-158 sharpe_rank_classic_buy_and_sell
-counter is 988
-504
-504 sharpe_rank_classic_buy_and_sell
-counter is 989
-132
-132 sharpe_rank_classic_buy_and_sell
-counter is 990
-111
-111 sharpe_rank_classic_buy_and_sell
 counter is 991
-49
-49 sharpe_rank_classic_buy_and_sell
+79
+79 sharpe_rank_classic_buy_and_sell
 counter is 992
-1435
-1435 sharpe_rank_classic_buy_and_sell
+1654
+1654 sharpe_rank_classic_buy_and_sell
 counter is 993
-771
-771 sharpe_rank_classic_buy_and_sell
+1016
+1016 sharpe_rank_classic_buy_and_sell
 counter is 994
-541
-541 sharpe_rank_classic_buy_and_sell
+584
+584 sharpe_rank_classic_buy_and_sell
 counter is 995
-230
-230 sharpe_rank_classic_buy_and_sell
+221
+221 sharpe_rank_classic_buy_and_sell
 counter is 996
-1152
-1152 sharpe_rank_classic_buy_and_sell
+1306
+1306 sharpe_rank_classic_buy_and_sell
 counter is 997
-541
-541 sharpe_rank_classic_buy_and_sell
+703
+703 sharpe_rank_classic_buy_and_sell
 counter is 998
-358
-358 sharpe_rank_classic_buy_and_sell
+418
+418 sharpe_rank_classic_buy_and_sell
 counter is 999
-146
-146 sharpe_rank_classic_buy_and_sell
+169
+169 sharpe_rank_classic_buy_and_sell
 counter is 1000
-912
-912 sharpe_rank_classic_buy_and_sell
+974
+974 sharpe_rank_classic_buy_and_sell
 counter is 1001
-335
-335 sharpe_rank_classic_buy_and_sell
+420
+420 sharpe_rank_classic_buy_and_sell
 counter is 1002
-226
-226 sharpe_rank_classic_buy_and_sell
+271
+271 sharpe_rank_classic_buy_and_sell
 counter is 1003
-79
-79 sharpe_rank_classic_buy_and_sell
+83
+83 sharpe_rank_classic_buy_and_sell
 counter is 1004
-508
-508 sharpe_rank_classic_buy_and_sell
+551
+551 sharpe_rank_classic_buy_and_sell
 counter is 1005
-143
-143 sharpe_rank_classic_buy_and_sell
+161
+161 sharpe_rank_classic_buy_and_sell
 counter is 1006
-129
-129 sharpe_rank_classic_buy_and_sell
-counter is 1007
-82
-82 sharpe_rank_classic_buy_and_sell
-counter is 1008
-1450
-1450 sharpe_rank_classic_buy_and_sell
-counter is 1009
-870
-870 sharpe_rank_classic_buy_and_sell
-counter is 1010
-694
-694 sharpe_rank_classic_buy_and_sell
-counter is 1011
-446
-446 sharpe_rank_classic_buy_and_sell
-counter is 1012
-1155
-1155 sharpe_rank_classic_buy_and_sell
-counter is 1013
-569
-569 sharpe_rank_classic_buy_and_sell
-counter is 1014
-465
-465 sharpe_rank_classic_buy_and_sell
-counter is 1015
-244
-244 sharpe_rank_classic_buy_and_sell
-counter is 1016
-900
-900 sharpe_rank_classic_buy_and_sell
-counter is 1017
-322
-322 sharpe_rank_classic_buy_and_sell
-counter is 1018
-226
-226 sharpe_rank_classic_buy_and_sell
-counter is 1019
 158
 158 sharpe_rank_classic_buy_and_sell
+counter is 1007
+83
+83 sharpe_rank_classic_buy_and_sell
+counter is 1008
+1663
+1663 sharpe_rank_classic_buy_and_sell
+counter is 1009
+1122
+1122 sharpe_rank_classic_buy_and_sell
+counter is 1010
+767
+767 sharpe_rank_classic_buy_and_sell
+counter is 1011
+451
+451 sharpe_rank_classic_buy_and_sell
+counter is 1012
+1269
+1269 sharpe_rank_classic_buy_and_sell
+counter is 1013
+705
+705 sharpe_rank_classic_buy_and_sell
+counter is 1014
+468
+468 sharpe_rank_classic_buy_and_sell
+counter is 1015
+303
+303 sharpe_rank_classic_buy_and_sell
+counter is 1016
+973
+973 sharpe_rank_classic_buy_and_sell
+counter is 1017
+433
+433 sharpe_rank_classic_buy_and_sell
+counter is 1018
+254
+254 sharpe_rank_classic_buy_and_sell
+counter is 1019
+182
+182 sharpe_rank_classic_buy_and_sell
 counter is 1020
-504
-504 sharpe_rank_classic_buy_and_sell
+553
+553 sharpe_rank_classic_buy_and_sell
 counter is 1021
-132
-132 sharpe_rank_classic_buy_and_sell
+131
+131 sharpe_rank_classic_buy_and_sell
 counter is 1022
-111
-111 sharpe_rank_classic_buy_and_sell
+89
+89 sharpe_rank_classic_buy_and_sell
 counter is 1023
-49
-49 sharpe_rank_classic_buy_and_sell
-counter is 1024
-1435
-1435 sharpe_rank_classic_buy_and_sell
-counter is 1025
-771
-771 sharpe_rank_classic_buy_and_sell
-counter is 1026
-541
-541 sharpe_rank_classic_buy_and_sell
-counter is 1027
-230
-230 sharpe_rank_classic_buy_and_sell
-counter is 1028
-1152
-1152 sharpe_rank_classic_buy_and_sell
-counter is 1029
-541
-541 sharpe_rank_classic_buy_and_sell
-counter is 1030
-358
-358 sharpe_rank_classic_buy_and_sell
-counter is 1031
-146
-146 sharpe_rank_classic_buy_and_sell
-counter is 1032
-912
-912 sharpe_rank_classic_buy_and_sell
-counter is 1033
-335
-335 sharpe_rank_classic_buy_and_sell
-counter is 1034
-226
-226 sharpe_rank_classic_buy_and_sell
-counter is 1035
 79
 79 sharpe_rank_classic_buy_and_sell
+counter is 1024
+1654
+1654 sharpe_rank_classic_buy_and_sell
+counter is 1025
+1016
+1016 sharpe_rank_classic_buy_and_sell
+counter is 1026
+584
+584 sharpe_rank_classic_buy_and_sell
+counter is 1027
+221
+221 sharpe_rank_classic_buy_and_sell
+counter is 1028
+1306
+1306 sharpe_rank_classic_buy_and_sell
+counter is 1029
+703
+703 sharpe_rank_classic_buy_and_sell
+counter is 1030
+418
+418 sharpe_rank_classic_buy_and_sell
+counter is 1031
+169
+169 sharpe_rank_classic_buy_and_sell
+counter is 1032
+974
+974 sharpe_rank_classic_buy_and_sell
+counter is 1033
+420
+420 sharpe_rank_classic_buy_and_sell
+counter is 1034
+271
+271 sharpe_rank_classic_buy_and_sell
+counter is 1035
+83
+83 sharpe_rank_classic_buy_and_sell
 counter is 1036
-508
-508 sharpe_rank_classic_buy_and_sell
+551
+551 sharpe_rank_classic_buy_and_sell
 counter is 1037
-143
-143 sharpe_rank_classic_buy_and_sell
+161
+161 sharpe_rank_classic_buy_and_sell
 counter is 1038
-129
-129 sharpe_rank_classic_buy_and_sell
-counter is 1039
-82
-82 sharpe_rank_classic_buy_and_sell
-counter is 1040
-1450
-1450 sharpe_rank_classic_buy_and_sell
-counter is 1041
-870
-870 sharpe_rank_classic_buy_and_sell
-counter is 1042
-694
-694 sharpe_rank_classic_buy_and_sell
-counter is 1043
-446
-446 sharpe_rank_classic_buy_and_sell
-counter is 1044
-1155
-1155 sharpe_rank_classic_buy_and_sell
-counter is 1045
-569
-569 sharpe_rank_classic_buy_and_sell
-counter is 1046
-465
-465 sharpe_rank_classic_buy_and_sell
-counter is 1047
-244
-244 sharpe_rank_classic_buy_and_sell
-counter is 1048
-900
-900 sharpe_rank_classic_buy_and_sell
-counter is 1049
-322
-322 sharpe_rank_classic_buy_and_sell
-counter is 1050
-226
-226 sharpe_rank_classic_buy_and_sell
-counter is 1051
 158
 158 sharpe_rank_classic_buy_and_sell
+counter is 1039
+83
+83 sharpe_rank_classic_buy_and_sell
+counter is 1040
+1663
+1663 sharpe_rank_classic_buy_and_sell
+counter is 1041
+1122
+1122 sharpe_rank_classic_buy_and_sell
+counter is 1042
+767
+767 sharpe_rank_classic_buy_and_sell
+counter is 1043
+451
+451 sharpe_rank_classic_buy_and_sell
+counter is 1044
+1269
+1269 sharpe_rank_classic_buy_and_sell
+counter is 1045
+705
+705 sharpe_rank_classic_buy_and_sell
+counter is 1046
+468
+468 sharpe_rank_classic_buy_and_sell
+counter is 1047
+303
+303 sharpe_rank_classic_buy_and_sell
+counter is 1048
+973
+973 sharpe_rank_classic_buy_and_sell
+counter is 1049
+433
+433 sharpe_rank_classic_buy_and_sell
+counter is 1050
+254
+254 sharpe_rank_classic_buy_and_sell
+counter is 1051
+182
+182 sharpe_rank_classic_buy_and_sell
 counter is 1052
-504
-504 sharpe_rank_classic_buy_and_sell
+553
+553 sharpe_rank_classic_buy_and_sell
 counter is 1053
-132
-132 sharpe_rank_classic_buy_and_sell
+131
+131 sharpe_rank_classic_buy_and_sell
 counter is 1054
-111
-111 sharpe_rank_classic_buy_and_sell
+89
+89 sharpe_rank_classic_buy_and_sell
 counter is 1055
-49
-49 sharpe_rank_classic_buy_and_sell
+79
+79 sharpe_rank_classic_buy_and_sell
 counter is 1056
-2558
-2558 sharpe_rank_classic_buy_and_sell
+3015
+3015 sharpe_rank_classic_buy_and_sell
 counter is 1057
-1571
-1571 sharpe_rank_classic_buy_and_sell
+2143
+2143 sharpe_rank_classic_buy_and_sell
 counter is 1058
-1065
-1065 sharpe_rank_classic_buy_and_sell
+1138
+1138 sharpe_rank_classic_buy_and_sell
 counter is 1059
-430
-430 sharpe_rank_classic_buy_and_sell
+433
+433 sharpe_rank_classic_buy_and_sell
 counter is 1060
-1747
-1747 sharpe_rank_classic_buy_and_sell
+2015
+2015 sharpe_rank_classic_buy_and_sell
 counter is 1061
-1026
-1026 sharpe_rank_classic_buy_and_sell
+1340
+1340 sharpe_rank_classic_buy_and_sell
 counter is 1062
-717
-717 sharpe_rank_classic_buy_and_sell
+784
+784 sharpe_rank_classic_buy_and_sell
 counter is 1063
-269
-269 sharpe_rank_classic_buy_and_sell
+295
+295 sharpe_rank_classic_buy_and_sell
 counter is 1064
-1209
-1209 sharpe_rank_classic_buy_and_sell
+1333
+1333 sharpe_rank_classic_buy_and_sell
 counter is 1065
-659
-659 sharpe_rank_classic_buy_and_sell
+825
+825 sharpe_rank_classic_buy_and_sell
 counter is 1066
-433
-433 sharpe_rank_classic_buy_and_sell
+454
+454 sharpe_rank_classic_buy_and_sell
 counter is 1067
-177
-177 sharpe_rank_classic_buy_and_sell
+203
+203 sharpe_rank_classic_buy_and_sell
 counter is 1068
-567
-567 sharpe_rank_classic_buy_and_sell
+656
+656 sharpe_rank_classic_buy_and_sell
 counter is 1069
-259
-259 sharpe_rank_classic_buy_and_sell
+353
+353 sharpe_rank_classic_buy_and_sell
 counter is 1070
-247
-247 sharpe_rank_classic_buy_and_sell
+274
+274 sharpe_rank_classic_buy_and_sell
 counter is 1071
-135
-135 sharpe_rank_classic_buy_and_sell
+130
+130 sharpe_rank_classic_buy_and_sell
 counter is 1072
-2604
-2604 sharpe_rank_classic_buy_and_sell
+2992
+2992 sharpe_rank_classic_buy_and_sell
 counter is 1073
-1772
-1772 sharpe_rank_classic_buy_and_sell
+2275
+2275 sharpe_rank_classic_buy_and_sell
 counter is 1074
-1257
-1257 sharpe_rank_classic_buy_and_sell
+1334
+1334 sharpe_rank_classic_buy_and_sell
 counter is 1075
-694
-694 sharpe_rank_classic_buy_and_sell
+722
+722 sharpe_rank_classic_buy_and_sell
 counter is 1076
-1728
-1728 sharpe_rank_classic_buy_and_sell
+1980
+1980 sharpe_rank_classic_buy_and_sell
 counter is 1077
-1039
-1039 sharpe_rank_classic_buy_and_sell
+1280
+1280 sharpe_rank_classic_buy_and_sell
 counter is 1078
-794
-794 sharpe_rank_classic_buy_and_sell
+822
+822 sharpe_rank_classic_buy_and_sell
 counter is 1079
-456
-456 sharpe_rank_classic_buy_and_sell
+548
+548 sharpe_rank_classic_buy_and_sell
 counter is 1080
-1205
-1205 sharpe_rank_classic_buy_and_sell
+1339
+1339 sharpe_rank_classic_buy_and_sell
 counter is 1081
-620
-620 sharpe_rank_classic_buy_and_sell
+735
+735 sharpe_rank_classic_buy_and_sell
 counter is 1082
-468
-468 sharpe_rank_classic_buy_and_sell
+490
+490 sharpe_rank_classic_buy_and_sell
 counter is 1083
-304
-304 sharpe_rank_classic_buy_and_sell
+361
+361 sharpe_rank_classic_buy_and_sell
 counter is 1084
-579
-579 sharpe_rank_classic_buy_and_sell
+685
+685 sharpe_rank_classic_buy_and_sell
 counter is 1085
-236
-236 sharpe_rank_classic_buy_and_sell
+269
+269 sharpe_rank_classic_buy_and_sell
 counter is 1086
-206
-206 sharpe_rank_classic_buy_and_sell
+182
+182 sharpe_rank_classic_buy_and_sell
 counter is 1087
-96
-96 sharpe_rank_classic_buy_and_sell
+160
+160 sharpe_rank_classic_buy_and_sell
 counter is 1088
-2558
-2558 sharpe_rank_classic_buy_and_sell
+3015
+3015 sharpe_rank_classic_buy_and_sell
 counter is 1089
-1571
-1571 sharpe_rank_classic_buy_and_sell
+2143
+2143 sharpe_rank_classic_buy_and_sell
 counter is 1090
-1065
-1065 sharpe_rank_classic_buy_and_sell
+1138
+1138 sharpe_rank_classic_buy_and_sell
 counter is 1091
-430
-430 sharpe_rank_classic_buy_and_sell
+433
+433 sharpe_rank_classic_buy_and_sell
 counter is 1092
-1747
-1747 sharpe_rank_classic_buy_and_sell
+2015
+2015 sharpe_rank_classic_buy_and_sell
 counter is 1093
-1026
-1026 sharpe_rank_classic_buy_and_sell
+1340
+1340 sharpe_rank_classic_buy_and_sell
 counter is 1094
-717
-717 sharpe_rank_classic_buy_and_sell
+784
+784 sharpe_rank_classic_buy_and_sell
 counter is 1095
-269
-269 sharpe_rank_classic_buy_and_sell
+295
+295 sharpe_rank_classic_buy_and_sell
 counter is 1096
-1209
-1209 sharpe_rank_classic_buy_and_sell
+1333
+1333 sharpe_rank_classic_buy_and_sell
 counter is 1097
-659
-659 sharpe_rank_classic_buy_and_sell
+825
+825 sharpe_rank_classic_buy_and_sell
 counter is 1098
-433
-433 sharpe_rank_classic_buy_and_sell
+454
+454 sharpe_rank_classic_buy_and_sell
 counter is 1099
-177
-177 sharpe_rank_classic_buy_and_sell
+203
+203 sharpe_rank_classic_buy_and_sell
 counter is 1100
-567
-567 sharpe_rank_classic_buy_and_sell
+656
+656 sharpe_rank_classic_buy_and_sell
 counter is 1101
-259
-259 sharpe_rank_classic_buy_and_sell
+353
+353 sharpe_rank_classic_buy_and_sell
 counter is 1102
-247
-247 sharpe_rank_classic_buy_and_sell
+274
+274 sharpe_rank_classic_buy_and_sell
 counter is 1103
-135
-135 sharpe_rank_classic_buy_and_sell
+130
+130 sharpe_rank_classic_buy_and_sell
 counter is 1104
-2604
-2604 sharpe_rank_classic_buy_and_sell
+2992
+2992 sharpe_rank_classic_buy_and_sell
 counter is 1105
-1772
-1772 sharpe_rank_classic_buy_and_sell
+2275
+2275 sharpe_rank_classic_buy_and_sell
 counter is 1106
-1257
-1257 sharpe_rank_classic_buy_and_sell
+1334
+1334 sharpe_rank_classic_buy_and_sell
 counter is 1107
-694
-694 sharpe_rank_classic_buy_and_sell
+722
+722 sharpe_rank_classic_buy_and_sell
 counter is 1108
-1728
-1728 sharpe_rank_classic_buy_and_sell
+1980
+1980 sharpe_rank_classic_buy_and_sell
 counter is 1109
-1039
-1039 sharpe_rank_classic_buy_and_sell
+1280
+1280 sharpe_rank_classic_buy_and_sell
 counter is 1110
-794
-794 sharpe_rank_classic_buy_and_sell
+822
+822 sharpe_rank_classic_buy_and_sell
 counter is 1111
-456
-456 sharpe_rank_classic_buy_and_sell
+548
+548 sharpe_rank_classic_buy_and_sell
 counter is 1112
-1205
-1205 sharpe_rank_classic_buy_and_sell
+1339
+1339 sharpe_rank_classic_buy_and_sell
 counter is 1113
-620
-620 sharpe_rank_classic_buy_and_sell
+735
+735 sharpe_rank_classic_buy_and_sell
 counter is 1114
-468
-468 sharpe_rank_classic_buy_and_sell
+490
+490 sharpe_rank_classic_buy_and_sell
 counter is 1115
-304
-304 sharpe_rank_classic_buy_and_sell
+361
+361 sharpe_rank_classic_buy_and_sell
 counter is 1116
-579
-579 sharpe_rank_classic_buy_and_sell
+685
+685 sharpe_rank_classic_buy_and_sell
 counter is 1117
-236
-236 sharpe_rank_classic_buy_and_sell
-counter is 1118
-206
-206 sharpe_rank_classic_buy_and_sell
-counter is 1119
-96
-96 sharpe_rank_classic_buy_and_sell
-counter is 1120
-2558
-2558 sharpe_rank_classic_buy_and_sell
-counter is 1121
-1571
-1571 sharpe_rank_classic_buy_and_sell
-counter is 1122
-1065
-1065 sharpe_rank_classic_buy_and_sell
-counter is 1123
-430
-430 sharpe_rank_classic_buy_and_sell
-counter is 1124
-1747
-1747 sharpe_rank_classic_buy_and_sell
-counter is 1125
-1026
-1026 sharpe_rank_classic_buy_and_sell
-counter is 1126
-717
-717 sharpe_rank_classic_buy_and_sell
-counter is 1127
 269
 269 sharpe_rank_classic_buy_and_sell
-counter is 1128
-1209
-1209 sharpe_rank_classic_buy_and_sell
-counter is 1129
-659
-659 sharpe_rank_classic_buy_and_sell
-counter is 1130
+counter is 1118
+182
+182 sharpe_rank_classic_buy_and_sell
+counter is 1119
+160
+160 sharpe_rank_classic_buy_and_sell
+counter is 1120
+3015
+3015 sharpe_rank_classic_buy_and_sell
+counter is 1121
+2143
+2143 sharpe_rank_classic_buy_and_sell
+counter is 1122
+1138
+1138 sharpe_rank_classic_buy_and_sell
+counter is 1123
 433
 433 sharpe_rank_classic_buy_and_sell
+counter is 1124
+2015
+2015 sharpe_rank_classic_buy_and_sell
+counter is 1125
+1340
+1340 sharpe_rank_classic_buy_and_sell
+counter is 1126
+784
+784 sharpe_rank_classic_buy_and_sell
+counter is 1127
+295
+295 sharpe_rank_classic_buy_and_sell
+counter is 1128
+1333
+1333 sharpe_rank_classic_buy_and_sell
+counter is 1129
+825
+825 sharpe_rank_classic_buy_and_sell
+counter is 1130
+454
+454 sharpe_rank_classic_buy_and_sell
 counter is 1131
-177
-177 sharpe_rank_classic_buy_and_sell
+203
+203 sharpe_rank_classic_buy_and_sell
 counter is 1132
-567
-567 sharpe_rank_classic_buy_and_sell
+656
+656 sharpe_rank_classic_buy_and_sell
 counter is 1133
-259
-259 sharpe_rank_classic_buy_and_sell
+353
+353 sharpe_rank_classic_buy_and_sell
 counter is 1134
-247
-247 sharpe_rank_classic_buy_and_sell
+274
+274 sharpe_rank_classic_buy_and_sell
 counter is 1135
-135
-135 sharpe_rank_classic_buy_and_sell
+130
+130 sharpe_rank_classic_buy_and_sell
 counter is 1136
-2604
-2604 sharpe_rank_classic_buy_and_sell
+2992
+2992 sharpe_rank_classic_buy_and_sell
 counter is 1137
-1772
-1772 sharpe_rank_classic_buy_and_sell
+2275
+2275 sharpe_rank_classic_buy_and_sell
 counter is 1138
-1257
-1257 sharpe_rank_classic_buy_and_sell
+1334
+1334 sharpe_rank_classic_buy_and_sell
 counter is 1139
-694
-694 sharpe_rank_classic_buy_and_sell
+722
+722 sharpe_rank_classic_buy_and_sell
 counter is 1140
-1728
-1728 sharpe_rank_classic_buy_and_sell
+1980
+1980 sharpe_rank_classic_buy_and_sell
 counter is 1141
-1039
-1039 sharpe_rank_classic_buy_and_sell
+1280
+1280 sharpe_rank_classic_buy_and_sell
 counter is 1142
-794
-794 sharpe_rank_classic_buy_and_sell
+822
+822 sharpe_rank_classic_buy_and_sell
 counter is 1143
-456
-456 sharpe_rank_classic_buy_and_sell
+548
+548 sharpe_rank_classic_buy_and_sell
 counter is 1144
-1205
-1205 sharpe_rank_classic_buy_and_sell
+1339
+1339 sharpe_rank_classic_buy_and_sell
 counter is 1145
-620
-620 sharpe_rank_classic_buy_and_sell
+735
+735 sharpe_rank_classic_buy_and_sell
 counter is 1146
-468
-468 sharpe_rank_classic_buy_and_sell
+490
+490 sharpe_rank_classic_buy_and_sell
 counter is 1147
-304
-304 sharpe_rank_classic_buy_and_sell
+361
+361 sharpe_rank_classic_buy_and_sell
 counter is 1148
-579
-579 sharpe_rank_classic_buy_and_sell
+685
+685 sharpe_rank_classic_buy_and_sell
 counter is 1149
-236
-236 sharpe_rank_classic_buy_and_sell
+269
+269 sharpe_rank_classic_buy_and_sell
 counter is 1150
-206
-206 sharpe_rank_classic_buy_and_sell
+182
+182 sharpe_rank_classic_buy_and_sell
 counter is 1151
-96
-96 sharpe_rank_classic_buy_and_sell
+160
+160 sharpe_rank_classic_buy_and_sell

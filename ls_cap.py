@@ -44,23 +44,6 @@ def get_sharpe(df_prices,sharpe_lookback):
 def save_sharpe(df_sharpe, s_out_file_path):
     df_sharpe.to_csv(s_out_file_path, sep=",", header=True, index=True)
 
-def get_ret_rank(df_prices, sharpe_lookback):
-    ''' Finding the event dataframe '''
-    df_ret_rank = np.NAN * copy.deepcopy(df_prices)
-
-    # Time stamps for the event range
-    ldt_timestamps = df_ret_rank.index
-    for s_sym in ls_symbols:
-   	 for i in range(1+sharpe_lookback, len(ldt_timestamps)):
-            # Calculating the returns for this timestamp
-         	f_symprice_beg = df_prices[s_sym].ix[ldt_timestamps[i-sharpe_lookback]]
-                f_symprice_end = df_prices[s_sym].ix[ldt_timestamps[i]]
-                f_market_beg = df_prices[ls_symbols[-1]].ix[ldt_timestamps[i-sharpe_lookback]]
-                f_market_end = df_prices[ls_symbols[-1]].ix[ldt_timestamps[i]]
-                df_ret_rank[s_sym].ix[ldt_timestamps[i]] = (f_symprice_end - f_symprice_beg) / f_symprice_beg  
-    for i in range(1, len(ldt_timestamps)):
-        df_ret_rank.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_ret_rank.ix[ldt_timestamps[i]])
-    return df_ret_rank 
 
 def get_bollingers(df_prices, i_lookback):
     df_bollingers = np.NAN * copy.deepcopy(df_prices)
@@ -327,11 +310,11 @@ if __name__ == '__main__':
     style=sys.argv[7]
     sharpe_lookback=sys.argv[8]
     quantile=sys.argv[9]
-
+    s_end = sys.argv[10]
     cap_num = "1000"
     s_num = "100"
     s_start = "2012-09-01"
-    s_end = "2015-11-29" 
+#   s_end = "2015-11-03" 
     s_sharpe_up_out_file_path = "q4_sharpe_events_up" + ".csv"
     s_sharpe_down_out_file_path = "q4_sharpe_events_down" + ".csv"
     s_sharpe_out_file_path = "q4_sharpe_events" + ".csv"
@@ -457,7 +440,7 @@ if __name__ == '__main__':
     if (style==-4):
     #   print "sharpe rank"
     #   strategy holds sharpe winners only
-        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
+        df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
         df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe) 
@@ -471,23 +454,5 @@ if __name__ == '__main__':
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
         print count, "sharpe_rank_hold_winners"
-
-    if (style==-5):
-    #   print "ret rank"
-    #   strategy holds sharpe winners only
-        df_sharpe= get_ret_rank(d_data["actual_close"], sharpe_lookback)
-        save_sharpe(df_sharpe, s_sharpe_file_path)
-        df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
-        df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe)
-    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
-    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
-    #print sharpe["ALPHA.AT"]
-    #for s_symbol in ls_symbols:
-    #   print s_symbol    
-    #   print sharpe[s_symbol]
-    #   print sharpe[s_symbol].mean() 
-        df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
-        save_orders(df_orders, s_orders_file_path)
-        print count, "ret_rank_hold_winners"
 
 #   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"  
