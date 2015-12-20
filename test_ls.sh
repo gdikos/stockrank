@@ -1,13 +1,13 @@
 #!/bin/bash
 
 COUNTER=0
-for style in -4 -3 -2 -1 
+for style in -42 -22 -12 -6 -5 -4 -3 -2 -1 2
 do
-    for i in 1 2 10 
+    for i in 1 2 10 30 
     do
        for holding_period in 5 10 30 
        do
-       for trigger in 0 
+       for trigger in 2  
        do
        for market in 0
            do
@@ -31,14 +31,13 @@ do
     echo $COUNTER
 
 if [ "$COUNTER" -gt "0" ]
-then echo "counter is" $COUNTER >> sims/sharpe_b2.txt 
-    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile>> sims/sharpe_b2.txt 
-#   sudo python bollinger_events.py $i $holding_period $trigger $market $bin $switch >> score.txt
+#then echo "counter is" $COUNTER >> sims/sharpe_b2.txt 
+#    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile>> sims/sharpe_b2.txt 
 
-    sudo python ls_sim.py
-#   sudo python analyzer.py $i $holding_period $trigger $market $bin $switch
-    echo "counter is" $COUNTER >> sims/sharpe_r2.txt
-    sudo python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/sharpe_r2.txt 
+#    sudo python ls_sim.py
+#    echo "counter is" $COUNTER >> sims/sharpe_r2.txt
+#    sudo python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/sharpe_r2.txt 
+then sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile && python ls_sim.py && python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/merged.txt
 fi
 COUNTER=$((COUNTER+1))
 echo $COUNTER
