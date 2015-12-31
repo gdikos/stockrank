@@ -119,7 +119,7 @@ def find_sharpe_rank(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_l
             # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
                 df_events[s_symbol].ix[ldt_timestamps[i]] = 1
                 count = count +1
-    print count
+#   print count
     return df_events, count
 
 def find_sharpe_rank_symmetric(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile):
@@ -225,7 +225,7 @@ def ls_unique_sharpe(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_l
             if f_sharpe_today*switch < len(ls_symbols)*switch*(quantile) and (count_down - count_up) < 1:
 #           if f_sharpe_yest > len(ls_symbols)/2 and f_sharpe_today < len(ls_symbols)/2 and f_sharpe_index*switch2 >= switch2*(f_sharpe_index_yest):
             # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
-                print f_sharpe_today, switch, len(ls_symbols)*switch*(quantile)
+#               print f_sharpe_today, switch, len(ls_symbols)*switch*(quantile)
  	 	df_events_down[s_symbol].ix[ldt_timestamps[i]] = 1
                 count_down = count_down +1
                 count_down_all = count_down_all + 1
@@ -398,7 +398,7 @@ def save_orders(df_orders, s_out_file_path):
 if __name__ == '__main__':
 #    print "start bollinger_events.py"
 
-    s_list_index = "ase_w12" 
+    s_list_index = "ase20" 
     s_index = "FTSE.AT"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
@@ -413,7 +413,7 @@ if __name__ == '__main__':
     cap_num = "1000"
     s_num = "100"
     s_start = "2012-09-01"
-    s_end = "2015-12-18" 
+    s_end = "2015-12-25" 
     s_sharpe_up_out_file_path = "q4_sharpe_events_up" + ".csv"
     s_sharpe_down_out_file_path = "q4_sharpe_events_down" + ".csv"
     s_sharpe_out_file_path = "q4_sharpe_events" + ".csv"

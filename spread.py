@@ -49,7 +49,8 @@ def get_bollingers(df_prices, i_lookback):
     df_bollingers = np.NAN * copy.deepcopy(df_prices)
     for s_symbol in df_prices.columns:
         ts_price = df_prices[s_symbol]
-        ts_mid = pd.rolling_mean(ts_price, i_lookback)
+        print ts_price
+	ts_mid = pd.rolling_mean(ts_price, i_lookback)
         ts_std = pd.rolling_std(ts_price, i_lookback)
         df_bollingers[s_symbol] = (ts_price - ts_mid) / (ts_std) 
     return df_bollingers
@@ -70,6 +71,30 @@ def find_bollinger_events(df_bollingers,trigger,market,switch,switch2):
                 df_events[s_symbol].ix[ldt_timestamps[i]] = 1
                 count = count +1 
     return df_events, count
+
+def find_capm_gap(df_prices, i_lookback, switch):
+    df_capm_gap = np.NAN * copy.deepcopy(df_prices)
+    ts_index = df_prices[ls_symbols[-1]]
+    tsu.returnize0(ts_index)
+    for s_symbol in ls_symbols[:len(ls_symbols)-1]:
+    	ts_price = df_prices[s_symbol]
+	tsu.returnize0(ts_price)
+        print "returns", ts_price
+        print "index", ts_index
+	ts_x_ret = pd.rolling_sum(ts_index, i_lookback)   
+    	ts_y_ret = pd.rolling_sum(ts_price, i_lookback)
+        
+    	beta = (1/pd.rolling_var(ts_index, i_lookback)) * pd.rolling_cov(ts_index, ts_price, i_lookback)
+    	alpha = pd.rolling_mean(ts_price, i_lookback) - beta * pd.rolling_mean(ts_index, i_lookback)
+    	df_capm_gap[s_symbol] = switch*(ts_y_ret - ts_x_ret)+(1-switch)*(ts_y_ret - alpha - beta * ts_x_ret) 
+        print "ind", ts_x_ret, "y", ts_y_ret, "a" , alpha, "b", beta, df_capm_gap[s_symbol]
+    ldt_timestamps = df_capm_gap.index
+    for i in range(1, len(ldt_timestamps)):
+	df_capm_gap.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_capm_gap.ix[ldt_timestamps[i]])
+    return df_capm_gap 
+
+#def spread_gap(df_prices, i_lookbak, switch):
+
 
 def find_sharpe_events(df_sharpe,trigger,market,switch,switch2,i_lookback):
     count = 0
@@ -265,7 +290,6 @@ def generate_orders(df_events, i_num, delta_t):
     df_orders = df_orders.sort(["date", "sym", "type"], ascending=[1, 1, 1])
     df_orders = df_orders.reset_index(drop=True)
     return df_orders
-
 def sellnbuy(df_events_up, df_events_down, i_num, delta_t):
     t = 0
     ldt_dates = list(df_events_up.index)
@@ -288,7 +312,6 @@ def sellnbuy(df_events_up, df_events_down, i_num, delta_t):
     df_orders = df_orders.sort(["date", "sym", "type"], ascending=[1, 1, 1])
     df_orders = df_orders.reset_index(drop=True)
     return df_orders
-
 def save_orders(df_orders, s_out_file_path):
     na_dates = np.array([[dt_date.year, dt_date.month, dt_date.day] for dt_date in df_orders["date"]])
     df_dates = pd.DataFrame(data=na_dates, columns=["year", "month", "day"])
@@ -299,8 +322,8 @@ def save_orders(df_orders, s_out_file_path):
 if __name__ == '__main__':
 #    print "start bollinger_events.py"
 
-    s_list_index = "ase_w12" 
-    s_index = "FTSE.AT"
+    s_list_index = "tech_ms" 
+    s_index = "IXIC"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -339,10 +362,12 @@ if __name__ == '__main__':
     dt_end = dt.datetime.strptime(s_end, "%Y-%m-%d")
     
     ls_symbols = get_symbols(s_list_index)
-#   ls_symbols.append(s_index)
+    ls_symbols.append(s_index)
     d_data = get_data(dt_start, dt_end, ls_symbols)
-#   print ls_symbols[-1]    
     d_data['close'].to_csv("data.csv")
+
+#   d_index = get_data(dt_start, dt_end, s_index)
+
 #   print len(ls_symbols), switch, float((quantile/10)),len(ls_symbols)*switch*(quantile/10)        
     df_bollingers = get_bollingers(d_data["close"], i_lookback)
     save_bollingers(df_bollingers, s_bollingers_file_path)
@@ -350,6 +375,25 @@ if __name__ == '__main__':
 	quantile=1-(quantile/10)
     else:
 	quantile =  quantile/10
+
+    if (style==2):
+    	df_bollinger_events,count = find_bollinger_events(df_bollingers,trigger,market,switch,switch2)
+    	df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+  	save_orders(df_orders, s_orders_file_path)
+        print count, "bollinger"
+
+    if (style==1):
+    	df_momentum_events, count = find_momentum(d_data["close"],trigger,market,switch,switch2,i_lookback)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    #sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+        save_momentum(df_momentum_events, s_momentum_file_path)
+	df_orders = generate_orders(df_momentum_events, i_num, delta_t)
+    	save_orders(df_orders, s_orders_file_path)
+    	print count, "momentum"
+    if (style==0):
+    # 	print "sharpe rank"
+        df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
 
     if (style==2):
     	df_bollinger_events,count = find_bollinger_events(df_bollingers,trigger,market,switch,switch2)
@@ -385,7 +429,7 @@ if __name__ == '__main__':
 
     if (style==-1):
     #   strategy buys assets that break up or down their sharpe rank and holds them for delta_t 
-        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
+        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback, switch)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events, count = find_sharpe_rank(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
     #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
@@ -403,7 +447,7 @@ if __name__ == '__main__':
     if (style==-2):
     #   strategy hold assets that are sharpe winners and sells sharpe loosers - holds an asset until the end if no change class
     #   print "sharpe rank"
-        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
+        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback, switch)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events_up, count_up = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
         df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
@@ -416,31 +460,12 @@ if __name__ == '__main__':
     #   print sharpe[s_symbol].mean() 
         df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
-        df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
-        save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
-
-    if (style==-3):
-    #   strategy buys assets that break up or down their sharpe rank and holds them for delta_t 
-        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
-        save_sharpe(df_sharpe, s_sharpe_file_path)
-        df_sharpe_events, count = find_sharpe_rank_symmetric(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
-    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
-    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
-    #print sharpe["ALPHA.AT"]
-    #for s_symbol in ls_symbols:
-    #   print s_symbol    
-    #   print sharpe[s_symbol]
-    #   print sharpe[s_symbol].mean()
-        df_sharpe_events.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
-        df_orders = generate_orders(df_sharpe_events, i_num, delta_t)
-        save_orders(df_orders, s_orders_file_path)
         print count, "sharpe_rank_classic_buy_and_sell_symmetric"
 
     if (style==-4):
     #   print "sharpe rank"
     #   strategy holds sharpe winners only
-        df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
+        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback, switch)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
         df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe) 
@@ -454,5 +479,21 @@ if __name__ == '__main__':
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
         print count, "sharpe_rank_hold_winners"
-
+    if (style==-100):
+    #   print "sharpe rank"
+    #   strategy holds sharpe winners only
+        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback,switch)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
+        df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean() 
+        df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count, "capm_rank_hold_winners"
 #   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"  

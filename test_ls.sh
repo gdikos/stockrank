@@ -37,7 +37,7 @@ if [ "$COUNTER" -gt "0" ]
 #    sudo python ls_sim.py
 #    echo "counter is" $COUNTER >> sims/sharpe_r2.txt
 #    sudo python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/sharpe_r2.txt 
-then sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile && python ls_sim.py && python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/merged.txt
+then sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile >> sims/merged_ase20_2015.txt && python ls_sim.py && python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/merged_ase20_2015.txt
 fi
 COUNTER=$((COUNTER+1))
 echo $COUNTER
