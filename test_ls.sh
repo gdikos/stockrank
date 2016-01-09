@@ -1,7 +1,7 @@
 #!/bin/bash
 
 COUNTER=0
-for style in -42 -22 -12 -6 -5 -4 -3 -2 -1 2
+for style in -42 -32 -22 -12 -6 -5 -4 -3 -2 -1 2 22 32 42
 do
     for i in 1 2 10 30 
     do
@@ -30,7 +30,7 @@ do
     echo "quantile" $quantile
     echo $COUNTER
 
-if [ "$COUNTER" -gt "0" ]
+if [ "$COUNTER" -gt "2848" ]
 #then echo "counter is" $COUNTER >> sims/sharpe_b2.txt 
 #    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile>> sims/sharpe_b2.txt 
 

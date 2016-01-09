@@ -62,6 +62,29 @@ def get_ret_rank(df_prices, sharpe_lookback):
         df_ret_rank.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_ret_rank.ix[ldt_timestamps[i]])
     return df_ret_rank 
 
+def find_capm_gap(df_prices, sharpe_lookback, switch):
+#    frames = [df_prices, df_prices]
+#    df_spread = pd.concat(frames, keys=ls_symbols)
+    df_capm_gap = np.NAN * copy.deepcopy(df_prices)
+    ts_index = df_prices[ls_symbols[-1]]
+    tsu.returnize0(ts_index)
+    for s_symbol in ls_symbols[:len(ls_symbols)-1]:
+        ts_price = df_prices[s_symbol]
+        tsu.returnize0(ts_price)
+
+        ts_x_ret = pd.rolling_sum(ts_index, i_lookback)
+        ts_y_ret = pd.rolling_sum(ts_price, i_lookback)
+
+        beta = (1/pd.rolling_var(ts_index, i_lookback)) * pd.rolling_cov(ts_index, ts_price, i_lookback)
+        alpha = pd.rolling_mean(ts_price, i_lookback) - beta * pd.rolling_mean(ts_index, i_lookback)
+        df_capm_gap[s_symbol] = switch*(ts_y_ret - ts_x_ret)+(1-switch)*(ts_y_ret - alpha - beta * ts_x_ret)
+
+    ldt_timestamps = df_capm_gap.index
+
+    for i in range(1 + sharpe_lookback, len(ldt_timestamps)):
+        df_capm_gap.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_capm_gap.ix[ldt_timestamps[i]])
+    return df_capm_gap
+
 def get_bollingers(df_prices, i_lookback):
     df_bollingers = np.NAN * copy.deepcopy(df_prices)
     for s_symbol in df_prices.columns:
@@ -137,7 +160,7 @@ def find_sharpe_rank_symmetric(df_sharpe,trigger,market,switch,switch2,i_lookbac
             # if f_sharpe_today*switch2 < trigger*switch2 and f_sharpe_yest*switch2 >= trigger*switch2 and (f_sharpe_index*switch)  >= (switch*market):
                 df_events[s_symbol].ix[ldt_timestamps[i]] = 1
                 count = count +1
-    print count
+#   print count
     return df_events, count
 
 def find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile):
@@ -445,7 +468,7 @@ if __name__ == '__main__':
 #   print ls_symbols[-1]    
     d_data['close'].to_csv("data.csv")
 #   print len(ls_symbols), switch, float((quantile/10)),len(ls_symbols)*switch*(quantile/10)        
-    df_bollingers = get_bollingers(d_data["close"], i_lookback)
+    df_bollingers = get_bollingers(d_data["actual_close"], i_lookback)
     save_bollingers(df_bollingers, s_bollingers_file_path)
     if (switch==1):
 	quantile=1-(quantile/10)
@@ -638,7 +661,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
+        print count_up+count_down, "sharpe_rank_long_short_event"
 
     if (style==-42):
     #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
@@ -658,8 +681,95 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
+        print count_up+count_down, "sharpe_rank_long_short_unique"
 
+    if (style==-32):
+    #   strategy goes long the sharpe winners avoiding duplicate events !   
+    #   print "sharpe rank"
+        df_sharpe= get_sharpe(d_data["actual_close"], sharpe_lookback)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events_up, count_up, df_sharpe_events_down, count_down  = ls_unique_sharpe(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+        df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe)
+    #   df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean() 
+        df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
+        df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
+        df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down, "sharpe_rank_long_unique"
 # next: capm_gap
+
+    if (style==22):
+    #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
+    #   print "sharpe rank"
+        vector = 0
+        weight = int(vector)
+        df_sharpe= find_capm_gap(d_data["actual_close"], sharpe_lookback, weight)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events_up, count_up, df_sharpe_events_down, count_down  = find_unique_sharpe(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #   df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean() 
+        df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
+        df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
+        df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down, "sharpe_rank_long_short_event"
+
+    if (style==32):
+    #   strategy goes long the sharpe winners avoiding duplicate events !   
+    #   print "sharpe rank"
+        vector = 0
+        weight = int(vector)
+        df_sharpe= find_capm_gap(d_data["actual_close"], sharpe_lookback, weight)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events_up, count_up, df_sharpe_events_down, count_down  = ls_unique_sharpe(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+        df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe)
+    #   df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean() 
+        df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
+        df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
+        df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down, "sharpe_rank_long_unique"
+
+    if (style==42):
+    #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
+    #   print "sharpe rank"
+        vector = 0
+        weight = int(vector)
+        df_sharpe= find_capm_gap(d_data["actual_close"], sharpe_lookback, weight)
+        save_sharpe(df_sharpe, s_sharpe_file_path)
+        df_sharpe_events_up, count_up, df_sharpe_events_down, count_down  = ls_unique_sharpe(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #   df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
+    #df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
+    # sharpe = get_sharpe(d_data["actual_close"],i_lookback)
+    #print sharpe["ALPHA.AT"]
+    #for s_symbol in ls_symbols:
+    #   print s_symbol    
+    #   print sharpe[s_symbol]
+    #   print sharpe[s_symbol].mean() 
+        df_sharpe_events_up.to_csv(s_sharpe_up_out_file_path, sep=",", header=True, index=True)
+        df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
+        df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down, "sharpe_rank_long_short_unique"
 # next: spread_trading
 #   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"  

@@ -73,28 +73,53 @@ def find_bollinger_events(df_bollingers,trigger,market,switch,switch2):
     return df_events, count
 
 def find_capm_gap(df_prices, i_lookback, switch):
+#   df_spread = pd.merge(df_prices, df_prices, left_index=True, right_index=True, how='outer') 
+    frames = [df_prices, df_prices]
+    df_spread = pd.concat(frames, keys=ls_symbols)
+    print "in"
+    print "df_spread:::", df_spread
     df_capm_gap = np.NAN * copy.deepcopy(df_prices)
     ts_index = df_prices[ls_symbols[-1]]
     tsu.returnize0(ts_index)
     for s_symbol in ls_symbols[:len(ls_symbols)-1]:
     	ts_price = df_prices[s_symbol]
 	tsu.returnize0(ts_price)
-        print "returns", ts_price
-        print "index", ts_index
+#       print "returns", ts_price
+#       print "index", ts_index
 	ts_x_ret = pd.rolling_sum(ts_index, i_lookback)   
     	ts_y_ret = pd.rolling_sum(ts_price, i_lookback)
         
     	beta = (1/pd.rolling_var(ts_index, i_lookback)) * pd.rolling_cov(ts_index, ts_price, i_lookback)
     	alpha = pd.rolling_mean(ts_price, i_lookback) - beta * pd.rolling_mean(ts_index, i_lookback)
     	df_capm_gap[s_symbol] = switch*(ts_y_ret - ts_x_ret)+(1-switch)*(ts_y_ret - alpha - beta * ts_x_ret) 
+#       print "ind", ts_x_ret, "y", ts_y_ret, "a" , alpha, "b", beta, df_capm_gap[s_symbol]
+    ldt_timestamps = df_capm_gap.index
+    print df_capm_gap
+    for i in range(1, len(ldt_timestamps)):
+	df_capm_gap.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_capm_gap.ix[ldt_timestamps[i]])
+        print df_spread.ix[[('AMZN',df_prices.index[i])]] 
+    return df_capm_gap 
+
+def spread_gap(df_prices, i_lookbak, switch):
+    df_capm_gap = np.NAN * copy.deepcopy(df_prices)
+    ts_index = df_prices[ls_symbols[-1]]
+    tsu.returnize0(ts_index)
+    for s_symbol in ls_symbols[:len(ls_symbols)-1]:
+        ts_price = df_prices[s_symbol]
+        tsu.returnize0(ts_price)
+        print "returns", ts_price
+        print "index", ts_index
+        ts_x_ret = pd.rolling_sum(ts_index, i_lookback)
+        ts_y_ret = pd.rolling_sum(ts_price, i_lookback)
+
+        beta = (1/pd.rolling_var(ts_index, i_lookback)) * pd.rolling_cov(ts_index, ts_price, i_lookback)
+        alpha = pd.rolling_mean(ts_price, i_lookback) - beta * pd.rolling_mean(ts_index, i_lookback)
+        df_capm_gap[s_symbol] = switch*(ts_y_ret - ts_x_ret)+(1-switch)*(ts_y_ret - alpha - beta * ts_x_ret)
         print "ind", ts_x_ret, "y", ts_y_ret, "a" , alpha, "b", beta, df_capm_gap[s_symbol]
     ldt_timestamps = df_capm_gap.index
     for i in range(1, len(ldt_timestamps)):
-	df_capm_gap.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_capm_gap.ix[ldt_timestamps[i]])
-    return df_capm_gap 
-
-#def spread_gap(df_prices, i_lookbak, switch):
-
+        df_capm_gap.ix[ldt_timestamps[i]]=scipy.stats.stats.rankdata(df_capm_gap.ix[ldt_timestamps[i]])
+    return df_capm_gap
 
 def find_sharpe_events(df_sharpe,trigger,market,switch,switch2,i_lookback):
     count = 0
@@ -375,7 +400,9 @@ if __name__ == '__main__':
 	quantile=1-(quantile/10)
     else:
 	quantile =  quantile/10
-
+    df_prices = d_data['close']
+#   frames = [df_prices, df_prices]
+#   df_spread = pd.concat(frames, keys=ls_symbols)
     if (style==2):
     	df_bollinger_events,count = find_bollinger_events(df_bollingers,trigger,market,switch,switch2)
     	df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
@@ -447,7 +474,7 @@ if __name__ == '__main__':
     if (style==-2):
     #   strategy hold assets that are sharpe winners and sells sharpe loosers - holds an asset until the end if no change class
     #   print "sharpe rank"
-        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback, switch)
+        df_sharpe= find_capm_gap(d_data["actual_close"], sharpe_lookback, switch)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events_up, count_up = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
         df_sharpe_events_down, count_down = find_sharpe_down(df_sharpe,trigger,market,switch,switch2,i_lookback,sharpe_lookback,quantile)
@@ -482,7 +509,7 @@ if __name__ == '__main__':
     if (style==-100):
     #   print "sharpe rank"
     #   strategy holds sharpe winners only
-        df_sharpe= find_capm_gap(d_data["actual_close"], i_lookback,switch)
+        df_sharpe= find_capm_gap(d_data["actual_close"], sharpe_lookback,switch2)
         save_sharpe(df_sharpe, s_sharpe_file_path)
         df_sharpe_events_up, count = find_sharpe_up(df_sharpe,trigger,market,switch,switch2,i_lookback, sharpe_lookback,quantile)
         df_sharpe_events_down= np.NAN * copy.deepcopy(df_sharpe)
