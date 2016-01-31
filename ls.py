@@ -421,8 +421,8 @@ def save_orders(df_orders, s_out_file_path):
 if __name__ == '__main__':
 #    print "start bollinger_events.py"
 
-    s_list_index = "ase20" 
-    s_index = "FTSE.AT"
+    s_list_index = "tech_ms" 
+    s_index = "IXIC"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -432,6 +432,7 @@ if __name__ == '__main__':
     style=sys.argv[7]
     sharpe_lookback=sys.argv[8]
     quantile=sys.argv[9]
+    counter=sys.argv[10]
 
     cap_num = "1000"
     s_num = "100"
@@ -458,6 +459,7 @@ if __name__ == '__main__':
     quantile=float(quantile)
     style=int(style)
     cap = int(cap_num)
+    cnt = int(counter)
 
     dt_start = dt.datetime.strptime(s_start, "%Y-%m-%d")
     dt_end = dt.datetime.strptime(s_end, "%Y-%m-%d")
@@ -485,7 +487,7 @@ if __name__ == '__main__':
     	df_bollinger_events,count = find_bollinger_events(df_bollingers,trigger,market,switch,switch2)
     	df_orders = generate_orders(df_bollinger_events, i_num, delta_t)
   	save_orders(df_orders, s_orders_file_path)
-        print count, "bollinger"
+        print cnt, count, "bollinger"
 
     if (style==1):
     	df_momentum_events, count = find_momentum(d_data["close"],trigger,market,switch,switch2,i_lookback)
@@ -495,7 +497,7 @@ if __name__ == '__main__':
         save_momentum(df_momentum_events, s_momentum_file_path)
 	df_orders = generate_orders(df_momentum_events, i_num, delta_t)
     	save_orders(df_orders, s_orders_file_path)
-    	print count, "momentum"
+    	print cnt, count, "momentum"
     if (style==0):
     # 	print "sharpe rank"
         df_sharpe= get_sharpe(d_data["actual_close"], i_lookback)
@@ -511,7 +513,7 @@ if __name__ == '__main__':
         df_sharpe_events.to_csv(sharpe_out_file_path, sep=",", header=True, index=True)    
 	df_orders = generate_orders(df_sharpe_events, i_num, delta_t)
     	save_orders(df_orders, s_orders_file_path)
-	print count, "sharpe_rank_vintage"
+	print cnt, count, "sharpe_rank_vintage"
 
     if (style==-1):
     #   strategy buys assets that break up or down their sharpe rank and holds them for delta_t 
@@ -528,7 +530,7 @@ if __name__ == '__main__':
         df_sharpe_events.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)  
         df_orders = generate_orders(df_sharpe_events, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count, "sharpe_rank_classic_buy_and_sell"
+        print cnt, count, "sharpe_rank_classic_buy_and_sell"
 
     if (style==-2):
     #   strategy hold assets that are sharpe winners and sells sharpe loosers - holds an asset until the end if no change class
@@ -548,7 +550,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
+        print cnt, count_up+count_down, "sharpe_rank_long_short"
 
     if (style==-3):
     #   strategy buys assets that break up or down their sharpe rank and holds them for delta_t 
@@ -565,7 +567,7 @@ if __name__ == '__main__':
         df_sharpe_events.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
         df_orders = generate_orders(df_sharpe_events, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count, "sharpe_rank_classic_buy_and_sell_symmetric"
+        print cnt, count, "sharpe_rank_classic_buy_and_sell_symmetric"
 
     if (style==-4):
     #   print "sharpe rank"
@@ -583,7 +585,7 @@ if __name__ == '__main__':
     #   print sharpe[s_symbol].mean() 
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count, "sharpe_rank_hold_winners"
+        print cnt, count, "sharpe_rank_hold_winners"
 
     if (style==-5):
     #   print "ret rank"
@@ -601,7 +603,7 @@ if __name__ == '__main__':
     #   print sharpe[s_symbol].mean() 
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count, "ret_rank_hold_winners"
+        print cnt, count, "ret_rank_hold_winners"
 
     if (style==-6):
     #   strategy hold assets that are sharpe winners and sells sharpe loosers - holds an asset until the end if no change class
@@ -621,7 +623,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = sellnbuy(df_sharpe_events_up, df_sharpe_events_down, i_num, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
+        print cnt, count_up+count_down, "sharpe_rank_long_short"
 
     if (style==-12):
     #   strategy hold assets that are sharpe winners and sells sharpe loosers - holds an asset until the end if no change class
@@ -641,7 +643,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short"
+        print cnt, count_up+count_down, "sharpe_rank_long_short"
 
     if (style==-22):
     #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
@@ -661,7 +663,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short_event"
+        print cnt, count_up+count_down, "sharpe_rank_long_short_event"
 
     if (style==-42):
     #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
@@ -681,7 +683,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short_unique"
+        print cnt, count_up+count_down, "sharpe_rank_long_short_unique"
 
     if (style==-32):
     #   strategy goes long the sharpe winners avoiding duplicate events !   
@@ -702,7 +704,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_unique"
+        print cnt, count_up+count_down, "sharpe_rank_long_unique"
 # next: capm_gap
 
     if (style==22):
@@ -725,7 +727,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short_event"
+        print cnt, count_up+count_down, "sharpe_rank_long_short_event"
 
     if (style==32):
     #   strategy goes long the sharpe winners avoiding duplicate events !   
@@ -748,7 +750,7 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_unique"
+        print cnt, count_up+count_down, "sharpe_rank_long_unique"
 
     if (style==42):
     #   strategy goes long the sharpe winners and short the sharpe loosers avoiding duplicate events !   
@@ -770,6 +772,6 @@ if __name__ == '__main__':
         df_sharpe_events_down.to_csv(s_sharpe_down_out_file_path, sep=",", header=True, index=True)
         df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
         save_orders(df_orders, s_orders_file_path)
-        print count_up+count_down, "sharpe_rank_long_short_unique"
+        print cnt, count_up+count_down, "sharpe_rank_long_short_unique"
 # next: spread_trading
 #   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"  

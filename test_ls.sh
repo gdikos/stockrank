@@ -30,14 +30,14 @@ do
     echo "quantile" $quantile
     echo $COUNTER
 
-if [ "$COUNTER" -gt "5194" ]
+if [ "$COUNTER" -gt "3791" ]
 #then echo "counter is" $COUNTER >> sims/sharpe_b2.txt 
 #    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile>> sims/sharpe_b2.txt 
 
 #    sudo python ls_sim.py
 #    echo "counter is" $COUNTER >> sims/sharpe_r2.txt
 #    sudo python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/sharpe_r2.txt 
-then sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile >> sims/merged_ase20_2015.txt && python ls_sim.py && python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/merged_ase20_2015.txt
+then sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/log_ms_2015.txt && python ls_sim.py && python ls_analyzer.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile $COUNTER >> sims/alpha_ms_2015.txt
 fi
 COUNTER=$((COUNTER+1))
 echo $COUNTER
