@@ -326,6 +326,69 @@ def find_momentum_2(df_prices, trigger, market, switch, switch2, i_lookback):
 def save_momentum(df_momentum, s_out_file_path):
     df_momentum.to_csv(s_out_file_path, sep=",", header=True, index=True)
 
+def find_ma(df_prices,trigger,market,switch,switch2, i_lookback):
+    count = 0
+    df_events_up = np.NAN * copy.deepcopy(df_prices)
+    df_events_down = np.NAN * copy.deepcopy(df_prices)
+    ldt_timestamps = df_prices.index
+    for s_symbol in ls_symbols:
+        for i in range(1 + i_lookback, len(ldt_timestamps)):
+            ma = pd.rolling_mean(df_prices, i_lookback)
+            ma_index = pd.rolling_mean(df_prices[ls_symbols[-1]], i_lookback)
+            f_ma_today = ma[s_symbol].ix[ldt_timestamps[i]]
+            f_ma_index = ma_index.ix[ldt_timestamps[i]]
+            if df_prices[s_symbol].ix[ldt_timestamps[i]]*switch > f_ma_today*switch and df_prices[ls_symbols[-1]].ix[ldt_timestamps[i]] * switch2 > switch2 * f_ma_index:
+                df_events_up[s_symbol].ix[ldt_timestamps[i]] = 1
+                count = count +1
+    return df_events_up, count
+
+def find_ma_events(df_prices,trigger,market,switch,switch2, i_lookback):
+    count = 0
+    df_events = np.NAN * copy.deepcopy(df_prices)
+    ldt_timestamps = df_prices.index
+    for s_symbol in ls_symbols:
+        count_up = 0
+        count_down = 0
+        for i in range(1 + i_lookback, len(ldt_timestamps)):
+            ma = pd.rolling_mean(df_prices, i_lookback)
+            ma_index = pd.rolling_mean(df_prices[ls_symbols[-1]], i_lookback)
+            f_ma_today = ma[s_symbol].ix[ldt_timestamps[i]]
+            f_ma_index = ma_index.ix[ldt_timestamps[i]]
+            if df_prices[s_symbol].ix[ldt_timestamps[i]]*switch > f_ma_today*switch and df_prices[ls_symbols[-1]].ix[ldt_timestamps[i]] * switch2 > switch2 * f_ma_index:
+                df_events[s_symbol].ix[ldt_timestamps[i]] = 1
+                count = count +1
+    return df_events, count
+
+def find_unique_ma(df_prices,trigger,market,switch,switch2, i_lookback):
+    count_up_all = 0
+    count_down_all = 0
+    df_events_up = np.NAN * copy.deepcopy(df_prices)
+    df_events_down = np.NAN * copy.deepcopy(df_prices)
+    ldt_timestamps = df_prices.index
+    for s_symbol in ls_symbols:
+        count_up = 0
+        count_down = 0
+        for i in range(1 + i_lookback, len(ldt_timestamps)):
+            ma = pd.rolling_mean(df_prices, i_lookback)
+            ma_index = pd.rolling_mean(df_prices[ls_symbols[-1]], i_lookback)
+            f_ma_today = ma[s_symbol].ix[ldt_timestamps[i]]
+            f_ma_index = ma_index.ix[ldt_timestamps[i]]
+            if df_prices[s_symbol].ix[ldt_timestamps[i]]*switch > f_ma_today*switch and df_prices[ls_symbols[-1]].ix[ldt_timestamps[i]] * switch2 > switch2 * f_ma_index and (count_up - count_down) < 1:
+                df_events_up[s_symbol].ix[ldt_timestamps[i]] = 1
+                count_up = count_up +1
+                count_up_all = count_up_all + 1
+        for i in range(1 + i_lookback, len(ldt_timestamps)):
+            ma = pd.rolling_mean(df_prices, i_lookback)
+            ma_index = pd.rolling_mean(df_prices[ls_symbols[-1]], i_lookback)
+            f_ma_today = ma[s_symbol].ix[ldt_timestamps[i]]
+            f_ma_index = ma_index.ix[ldt_timestamps[i]]
+            if df_prices[s_symbol].ix[ldt_timestamps[i]]*switch > f_ma_today*switch and df_prices[ls_symbols[-1]].ix[ldt_timestamps[i]] > switch2 * f_ma_index and (count_down - count_up) < 1:
+                df_events_down[s_symbol].ix[ldt_timestamps[i]] = 1
+                count_down = count_down +1
+                count_down_all = count_down_all + 1
+    df_events_up.to_csv("up_sharpe" + ".csv", sep=",", header=True, index=True)
+    return df_events_up, count_up_all, df_events_down, count_down_all
+
 def generate_order(ldt_dates, t, delta_t, s_symbol, i_num):
     l_buy_order = [ldt_dates[t], s_symbol, "Buy", i_num]  
     i = t + delta_t
@@ -425,8 +488,14 @@ if __name__ == '__main__':
 #   s_index= "FTSE.AT"
 #    s_list_index = "tech_ms" 
 #    s_index = "IXIC"
-    s_list_index = "dji" 
-    s_index = "DJI"
+#    s_list_index = "dji" 
+#    s_index = "DJI"
+#    s_list_index = "eurofin"
+#    s_index = "EURO50"
+#    s_list_index = "gdikos"
+#    s_index = "IXIC"
+    s_list_index = "ase20"
+    s_index = "GREK"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -441,7 +510,7 @@ if __name__ == '__main__':
     cap_num = "1000"
     s_num = "100"
     s_start = "2012-09-01"
-    s_end = "2016-03-11" 
+    s_end = "2016-11-26" 
     s_sharpe_up_out_file_path = "q4_sharpe_events_up" + ".csv"
     s_sharpe_down_out_file_path = "q4_sharpe_events_down" + ".csv"
     s_sharpe_out_file_path = "q4_sharpe_events" + ".csv"
@@ -778,4 +847,29 @@ if __name__ == '__main__':
         save_orders(df_orders, s_orders_file_path)
         print cnt, count_up+count_down, "sharpe_rank_long_short_unique"
 # next: spread_trading
-#   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"  
+#   print "endsave_sharpe(df_sharpe, s_sharpe_file_path) bollinger_events.py"
+
+    if (style == 201):
+        df_momentum_events, count = find_ma(d_data["actual_close"],trigger,market,switch,switch2, i_lookback)
+        df_momentum_events.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
+        df_orders = generate_orders(df_momentum_events, i_num, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count, "momentum"
+
+    if (style==232):
+        df_sharpe_events_up, count_up, df_sharpe_events_down, count_down  = find_unique_ma(d_data["actual_close"],trigger,market,switch,switch2, i_lookback)
+        df_orders = ls_cap(d_data["close"],df_sharpe_events_up, df_sharpe_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down, "sharpe_rank_long_unique"
+
+    if (style == 203):
+        switch = 1
+        df__momentum_events_up, count_up = find_ma_events(d_data["actual_close"],trigger,market,switch,switch2, i_lookback)
+        df__momentum_events_up.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
+        switch = -1
+        df__momentum_events_down, count_down = find_ma_events(d_data["actual_close"],trigger,market,switch,switch2, i_lookback)
+        df__momentum_events_down.to_csv(s_sharpe_out_file_path, sep=",", header=True, index=True)
+        df_orders = ls_cap(d_data["close"],df__momentum_events_up, df__momentum_events_down, cap, delta_t)
+        save_orders(df_orders, s_orders_file_path)
+        print count_up+count_down
+ 
