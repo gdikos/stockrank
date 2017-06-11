@@ -494,8 +494,12 @@ if __name__ == '__main__':
 #    s_index = "EURO50"
 #    s_list_index = "gdikos"
 #    s_index = "IXIC"
-    s_list_index = "ase20"
-    s_index = "GREK"
+#    s_list_index = "ase20"
+#    s_index = "GREK"
+    s_list_index = "sp1002017"
+    s_index = "SP100"
+#    s_list_index = "gold"
+#    s_index = "GLD"
     s_lookback = sys.argv[1]
     s_delta_t = sys.argv[2]
     trigger= sys.argv[3] 
@@ -510,7 +514,7 @@ if __name__ == '__main__':
     cap_num = "1000"
     s_num = "100"
     s_start = "2012-09-01"
-    s_end = "2016-11-26" 
+    s_end = "2017-04-10" 
     s_sharpe_up_out_file_path = "q4_sharpe_events_up" + ".csv"
     s_sharpe_down_out_file_path = "q4_sharpe_events_down" + ".csv"
     s_sharpe_out_file_path = "q4_sharpe_events" + ".csv"

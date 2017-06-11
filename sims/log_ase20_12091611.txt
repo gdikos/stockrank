@@ -16405,3 +16405,894 @@
 12483
 12483
 12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+12483
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11220
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+11662
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+12510
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+11702
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+12017
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+67 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+63 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+68 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+69 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+23 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
+66 sharpe_rank_long_unique
