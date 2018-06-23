@@ -30,7 +30,7 @@ do
     echo "quantile" $quantile
     echo $COUNTER
 
-if [ "$COUNTER" -gt "10519" ]
+if [ "$COUNTER" -gt "10949" ]
 #then echo "counter is" $COUNTER >> sims/sharpe_b2.txt 
 #    sudo python ls.py $i $holding_period $trigger $market $bin $switch $style $sharpe_period $quantile>> sims/sharpe_b2.txt 
 
